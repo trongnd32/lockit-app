@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LocKit — Game Translation Manager</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230e0f13'/%3E%3Crect x='4' y='8' width='16' height='3' rx='1.5' fill='%234fffb0'/%3E%3Crect x='4' y='14' width='24' height='3' rx='1.5' fill='%234fffb0' opacity='.6'/%3E%3Crect x='4' y='20' width='20' height='3' rx='1.5' fill='%234fffb0' opacity='.35'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+
+<header>
+  <div class="logo">Loc<span>Kit</span></div>
+  <div style="color:var(--text-muted);font-size:12px;">game translation manager</div>
+  <div class="header-stats">
+    <div class="stat">
+      <span class="stat-num" id="stat-strings">0</span>
+      <span class="stat-label">strings</span>
+    </div>
+    <div class="stat">
+      <span class="stat-num" id="stat-langs">0</span>
+      <span class="stat-label">languages</span>
+    </div>
+    <div class="stat">
+      <span class="stat-num" id="stat-cats">0</span>
+      <span class="stat-label">categories</span>
+    </div>
+  </div>
+  <div class="header-actions">
+    <div class="save-indicator" id="save-indicator" title="Unsaved changes">
+      <span class="dot"></span>
+      <span id="save-label">no project</span>
+    </div>
+    <button class="btn btn-ghost" onclick="openLoadProject()" title="Load a saved .lockit.json project file">↓ Load</button>
+    <button class="btn btn-ghost" onclick="saveProject()" title="Save project as .lockit.json">↑ Save</button>
+    <div style="width:1px;height:20px;background:var(--border)"></div>
+    <button class="btn btn-ghost" onclick="openAddCategory()">+ Category</button>
+    <button class="btn btn-primary" onclick="openImport()">↑ Import CSV</button>
+  </div>
+</header>
+
+<div class="layout">
+  <aside class="sidebar">
+    <div class="sidebar-title">Categories</div>
+    <div class="cat-list" id="cat-list">
+      <div class="cat-item active" data-cat="__ALL__">
+        <span>All Strings</span>
+        <span class="cat-count" id="count-all">0</span>
+      </div>
+    </div>
+  </aside>
+
+  <div class="main">
+    <div class="toolbar">
+      <div class="search-box">
+        <input type="text" id="global-search" placeholder="Search all columns..." oninput="onGlobalSearch()">
+      </div>
+      <div class="toolbar-sep"></div>
+      <button class="btn btn-export btn-sm" onclick="openExportDialog()">↓ Export CSV</button>
+      <button class="btn btn-ghost btn-sm" onclick="openAddString()">+ Add String</button>
+      <div class="toolbar-sep"></div>
+      <div class="col-toggle-wrap" id="col-toggle-wrap">
+        <button class="btn btn-ghost btn-sm" id="col-toggle-btn" onclick="toggleColDropdown()">
+          <span id="col-toggle-label">Columns</span> ▾
+        </button>
+        <div class="col-dropdown" id="col-dropdown" style="display:none"></div>
+      </div>
+      <span style="margin-left:auto;font-family:var(--mono);font-size:11px;color:var(--text-muted)" id="row-count"></span>
+    </div>
+
+    <div class="table-wrap">
+      <table id="main-table">
+        <thead>
+          <tr id="header-row"></tr>
+          <tr class="filter-row" id="filter-row"></tr>
+        </thead>
+        <tbody id="table-body"></tbody>
+      </table>
+      <div class="empty-state" id="empty-state" style="display:none">
+        <div class="icon">⌨</div>
+        <p>No strings yet. Import a CSV to get started.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <span id="footer-status">Ready</span>
+  <span style="margin-left:auto">LocKit v1.0 — in-browser SQLite</span>
+</footer>
+
+<!-- MODALS rendered by JS -->
+<div id="modal-root"></div>
+
+<script type="module" src="js/main.js"></script>
+</body>
+</html>
