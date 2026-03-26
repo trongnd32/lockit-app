@@ -1,0 +1,50 @@
+{
+  "manifest_version": 3,
+  "name": "Translation Manager ChatGPT Integration",
+  "version": "1.0",
+  "description": "Opens ChatGPT in the side panel and injects translation prompts.",
+  "permissions": [
+    "sidePanel",
+    "storage",
+    "declarativeNetRequest"
+  ],
+  "host_permissions": [
+    "*://chatgpt.com/*",
+    "*://gemini.google.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content_bridge.js"],
+      "all_frames": false
+    },
+    {
+      "matches": ["*://chatgpt.com/*", "*://*.chatgpt.com/*", "*://*.openai.com/*"],
+      "js": ["inject_chatgpt.js"],
+      "all_frames": true
+    },
+    {
+      "matches": ["*://gemini.google.com/*"],
+      "js": ["inject_gemini.js"],
+      "all_frames": true
+    }
+  ],
+  "side_panel": {
+    "default_path": "sidepanel.html"
+  },
+  "action": {
+    "default_title": "Translation Manager ChatGPT"
+  },
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "ruleset_1",
+        "enabled": true,
+        "path": "rules.json"
+      }
+    ]
+  }
+}

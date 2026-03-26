@@ -1,0 +1,64 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "modifyHeaders",
+      "responseHeaders": [
+        { "header": "x-frame-options", "operation": "remove" },
+        { "header": "content-security-policy", "operation": "remove" }
+      ]
+    },
+    "condition": {
+      "urlFilter": "||chatgpt.com",
+      "resourceTypes": ["sub_frame", "main_frame", "xmlhttprequest"]
+    }
+  },
+  {
+    "id": 2,
+    "priority": 1,
+    "action": {
+      "type": "modifyHeaders",
+      "requestHeaders": [
+        { "header": "sec-fetch-site", "operation": "set", "value": "same-origin" },
+        { "header": "origin", "operation": "set", "value": "https://chatgpt.com" },
+        { "header": "referer", "operation": "set", "value": "https://chatgpt.com/" }
+      ]
+    },
+    "condition": {
+      "urlFilter": "||chatgpt.com",
+      "resourceTypes": ["xmlhttprequest", "websocket", "sub_frame", "ping", "script"]
+    }
+  },
+  {
+    "id": 3,
+    "priority": 1,
+    "action": {
+      "type": "modifyHeaders",
+      "responseHeaders": [
+        { "header": "x-frame-options", "operation": "remove" },
+        { "header": "content-security-policy", "operation": "remove" }
+      ]
+    },
+    "condition": {
+      "urlFilter": "||gemini.google.com",
+      "resourceTypes": ["sub_frame", "main_frame", "xmlhttprequest"]
+    }
+  },
+  {
+    "id": 4,
+    "priority": 1,
+    "action": {
+      "type": "modifyHeaders",
+      "requestHeaders": [
+        { "header": "sec-fetch-site", "operation": "set", "value": "same-origin" },
+        { "header": "origin", "operation": "set", "value": "https://gemini.google.com" },
+        { "header": "referer", "operation": "set", "value": "https://gemini.google.com/" }
+      ]
+    },
+    "condition": {
+      "urlFilter": "||gemini.google.com",
+      "resourceTypes": ["xmlhttprequest", "websocket", "sub_frame", "ping", "script"]
+    }
+  }
+]

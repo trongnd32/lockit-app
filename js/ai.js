@@ -4,29 +4,36 @@
 
 const AI_STYLES = [
   { id: 'natural', label: 'Natural', desc: 'Conversational, feels native to the language' },
-  { id: 'polite',  label: 'Polite',  desc: 'Respectful and courteous tone' },
-  { id: 'formal',  label: 'Formal',  desc: 'Professional, stiff register' },
-  { id: 'casual',  label: 'Casual',  desc: 'Friendly, relaxed, informal' },
+  { id: 'polite', label: 'Polite', desc: 'Respectful and courteous tone' },
+  { id: 'formal', label: 'Formal', desc: 'Professional, stiff register' },
+  { id: 'casual', label: 'Casual', desc: 'Friendly, relaxed, informal' },
   { id: 'playful', label: 'Playful', desc: 'Fun, energetic, for games targeting younger players' },
-  { id: 'epic',    label: 'Epic',    desc: 'Dramatic, heroic fantasy tone' },
-  { id: 'other',   label: 'Other…',  desc: 'Type your own style instruction' },
+  { id: 'epic', label: 'Epic', desc: 'Dramatic, heroic fantasy tone' },
+  { id: 'other', label: 'Other…', desc: 'Type your own style instruction' },
 ];
 
 let _selectedAiStyle = 'natural';
 
 function openAiTrans(id) {
-  const s      = db.strings.get(id);
+  const s = db.strings.get(id);
   if (!s) return;
 
-  const langs   = getLangs().filter(l => l !== 'en');
-  const enText  = s.langs['en'] || '';
+  const langs = getLangs().filter(l => l !== 'en');
+  const enText = s.langs['en'] || '';
+
+  let savedLangs = [];
+  try { savedLangs = JSON.parse(localStorage.getItem('ai_selected_langs') || '[]'); } catch(e){}
+  const savedStyle = localStorage.getItem('ai_selected_style') || 'natural';
 
   const langChips = langs.length
-    ? langs.map(l => `
-        <label class="ai-lang-chip" id="ai-chip-${l}">
-          <input type="checkbox" value="${l}" onchange="toggleAiChip('${l}')">
+    ? langs.map(l => {
+        const isSelected = savedLangs.includes(l);
+        return `
+        <label class="ai-lang-chip ${isSelected ? 'selected' : ''}" id="ai-chip-${l}">
+          <input type="checkbox" value="${l}" onchange="toggleAiChip('${l}')" ${isSelected ? 'checked' : ''}>
           <span>${l.toUpperCase()}</span>
-        </label>`).join('')
+        </label>`;
+      }).join('')
     : '<span style="color:var(--text-muted);font-size:12px">No non-EN languages found.</span>';
 
   const styleChips = AI_STYLES.map(st => `
@@ -37,7 +44,7 @@ function openAiTrans(id) {
     <div class="modal modal-lg" onclick="event.stopPropagation()">
       <div class="modal-title">✦ AI Translation</div>
       <div class="modal-sub">
-        The prompt will be copied to your clipboard and ChatGPT opened in a new tab.
+        The prompt will be sent to your configured AI Translation Engine.
       </div>
 
       <div class="form-group">
@@ -70,11 +77,15 @@ function openAiTrans(id) {
       <div class="modal-actions">
         <button class="btn btn-ghost" onclick="closeModalForce()">Cancel</button>
         <button class="btn btn-ai" style="padding:7px 18px;font-size:12px;width:auto"
-                onclick="launchAiTrans(${JSON.stringify(id)})">✦ Open ChatGPT</button>
+                onclick='launchAiTrans(${JSON.stringify(id)})'>✦ Open AI</button>
       </div>
     </div>`);
 
-  selectAiStyle('natural'); // pre-select default
+  selectAiStyle(savedStyle);
+  const customInput = document.getElementById('ai-style-custom');
+  if (savedStyle === 'other' && customInput) {
+    customInput.value = localStorage.getItem('ai_custom_style') || '';
+  }
 }
 
 function toggleAiChip(lang) {
@@ -91,24 +102,28 @@ function selectAiStyle(id) {
 }
 
 function _buildAiPrompt(id) {
-  const s       = db.strings.get(id);
-  const enText  = s.langs['en'] || '(no English text provided)';
+  const s = db.strings.get(id);
+  const enText = s.langs['en'] || '(no English text provided)';
   const targets = [...document.querySelectorAll('.ai-lang-chip input:checked')].map(i => i.value);
 
   if (!targets.length) { alert('Please select at least one target language.'); return null; }
 
+  localStorage.setItem('ai_selected_langs', JSON.stringify(targets));
+  localStorage.setItem('ai_selected_style', _selectedAiStyle);
+
   let styleLabel, styleDesc;
   if (_selectedAiStyle === 'other') {
     styleLabel = 'Custom';
-    styleDesc  = document.getElementById('ai-style-custom')?.value.trim() || 'natural';
+    styleDesc = document.getElementById('ai-style-custom')?.value.trim() || 'natural';
+    localStorage.setItem('ai_custom_style', styleDesc);
   } else {
-    const st   = AI_STYLES.find(x => x.id === _selectedAiStyle);
+    const st = AI_STYLES.find(x => x.id === _selectedAiStyle);
     styleLabel = st?.label || 'Natural';
-    styleDesc  = st?.desc  || 'natural, native-sounding';
+    styleDesc = st?.desc || 'natural, native-sounding';
   }
 
   const targetList = targets.map(l => `- ${l.toUpperCase()}`).join('\n');
-  const project    = currentProjectName || 'Unknown Game';
+  const project = currentProjectName || 'Unknown Game';
 
   return `You are a professional game localization translator working on the game "${project}".
 
@@ -146,23 +161,13 @@ function launchAiTrans(id) {
   const prompt = _buildAiPrompt(id);
   if (!prompt) return;
 
-  navigator.clipboard.writeText(prompt).then(() => {
-    closeModalForce();
-    setStatus('Prompt copied to clipboard — ChatGPT opening…');
-    window.open('https://chatgpt.com/', '_blank');
-  }).catch(() => {
-    // Clipboard blocked — show fallback textarea
-    showModal(`
-      <div class="modal modal-lg" onclick="event.stopPropagation()">
-        <div class="modal-title">Copy this prompt</div>
-        <div class="modal-sub">Clipboard access was blocked. Copy the text below, then paste into ChatGPT.</div>
-        <textarea class="form-input form-textarea" style="min-height:200px;font-family:var(--mono);font-size:11px"
-                  readonly>${escHtml(prompt)}</textarea>
-        <div class="modal-actions">
-          <button class="btn btn-ghost" onclick="closeModalForce()">Close</button>
-          <button class="btn btn-ai" style="width:auto;padding:7px 14px"
-                  onclick="window.open('https://chatgpt.com/','_blank')">Open ChatGPT ↗</button>
-        </div>
-      </div>`);
-  });
+  const model = localStorage.getItem('lockit_settings_ai_model') || 'chatgpt';
+
+  // Send request to the extension to open AI side panel
+  document.dispatchEvent(new CustomEvent('TranslManager_OpenAI', { 
+    detail: { prompt, model } 
+  }));
+  
+  closeModalForce();
+  setStatus('Requested extension to open AI side panel (' + model + ')…');
 }
