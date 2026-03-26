@@ -1,0 +1,44 @@
+/* ── Modal overlay ── */
+.modal-overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.7); display: flex; align-items: center; justify-content: center; z-index: 100; backdrop-filter: blur(3px); }
+
+.modal { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 24px; width: 520px; max-width: 95vw; max-height: 85vh; overflow-y: auto; box-shadow: 0 24px 80px rgba(0,0,0,0.5); }
+.modal.modal-sm { width: 380px; }
+.modal.modal-lg { width: 700px; }
+
+.modal-title { font-family: var(--mono); font-size: 16px; font-weight: 600; margin-bottom: 6px; color: var(--text); }
+.modal-sub { font-size: 12px; color: var(--text-muted); margin-bottom: 20px; }
+.modal-actions { display: flex; gap: 8px; justify-content: flex-end; margin-top: 20px; padding-top: 16px; border-top: 1px solid var(--border); }
+
+/* ── Forms ── */
+.form-group { margin-bottom: 16px; }
+.form-label { display: block; font-family: var(--mono); font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.8px; color: var(--text-muted); margin-bottom: 6px; }
+.form-input { width: 100%; background: var(--bg); border: 1px solid var(--border); color: var(--text); font-family: var(--sans); font-size: 13px; padding: 8px 10px; border-radius: 4px; outline: none; transition: border-color 0.15s; }
+.form-input:focus { border-color: var(--accent); }
+.form-textarea { resize: vertical; min-height: 70px; font-family: var(--sans); line-height: 1.5; }
+.form-select { appearance: none; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath fill='%236b7080' d='M6 8L0 0h12z'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right 10px center; padding-right: 28px; }
+.tag-input-wrap { display: flex; gap: 6px; }
+.tag-input-wrap input { flex: 1; }
+.lang-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+
+/* ── Info / warn boxes ── */
+.info-box { background: rgba(79,255,176,0.07); border: 1px solid rgba(79,255,176,0.2); border-radius: 4px; padding: 10px 12px; font-size: 12px; color: var(--text); margin-bottom: 16px; }
+.warn-box { background: rgba(255,107,107,0.07); border: 1px solid rgba(255,107,107,0.2); border-radius: 4px; padding: 10px 12px; font-size: 12px; color: var(--text); margin-bottom: 16px; }
+
+/* ── File drop zone ── */
+.file-drop { border: 2px dashed var(--border); border-radius: 6px; padding: 24px; text-align: center; cursor: pointer; transition: all 0.15s; color: var(--text-muted); }
+.file-drop:hover, .file-drop.drag { border-color: var(--accent); color: var(--accent); }
+.file-drop .drop-icon { font-size: 28px; margin-bottom: 8px; }
+.file-drop p { font-size: 12px; }
+
+/* ── Conflict dialog ── */
+.conflict-item { background: var(--bg); border: 1px solid var(--border); border-radius: 4px; padding: 10px; margin-bottom: 8px; font-size: 12px; }
+.conflict-key { font-family: var(--mono); color: var(--accent); font-weight: 600; margin-bottom: 4px; }
+.conflict-vals { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 6px; }
+.conflict-old, .conflict-new { padding: 4px 6px; border-radius: 3px; font-size: 11px; }
+.conflict-old { background: rgba(255,107,107,0.1); border-left: 2px solid var(--accent2); }
+.conflict-new { background: rgba(79,255,176,0.1); border-left: 2px solid var(--accent); }
+.conflict-lang { font-family: var(--mono); font-size: 10px; color: var(--text-muted); margin-bottom: 2px; }
+
+/* ── Progress bar (misc) ── */
+.progress-bar { height: 3px; background: var(--border); border-radius: 2px; overflow: hidden; margin-top: 8px; }
+.progress-fill { height: 100%; background: var(--accent); border-radius: 2px; transition: width 0.3s; }
