@@ -46,8 +46,9 @@
     </div>
     <div class="save-indicator" id="save-indicator"><span class="dot"></span></div>
 
-    <button class="btn btn-ghost" onclick="openLoadProject()" title="Load a .lockit.json project">↓ Load</button>
-    <button class="btn btn-ghost" onclick="saveProject()"     title="Save project as .lockit.json">↑ Save</button>
+    <button class="btn btn-ghost" onclick="openLoadProjectModal()" title="Load local/remote project">↓ Load</button>
+    <button class="btn btn-ghost" onclick="saveProject()" title="Save project to your computer">↑ Save (Local)</button>
+    <button class="btn btn-ghost" onclick="saveProjectRemote()" title="Push to GitHub remote branch">☁ Save (Remote)</button>
     <div style="width:1px;height:20px;background:var(--border)"></div>
     <button class="btn btn-ghost"   onclick="openAddCategory()">+ Category</button>
     <button class="btn btn-primary" onclick="openImport()">↑ Import CSV</button>
@@ -144,6 +145,7 @@
 <script src="js/project.js"></script>
 <script src="js/prefs.js"></script>
 <script src="js/settings.js"></script>
+<script src="js/github_sync.js"></script>
 <script src="js/ai.js"></script>
 <script src="js/ai_api.js"></script>
 <script src="js/main.js"></script>

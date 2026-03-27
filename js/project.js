@@ -155,12 +155,12 @@ function _doSaveProject(name) {
 
 // ── Load ──
 
-function openLoadProject() {
+async function openLoadProjectModal() {
   const warnHtml = hasUnsavedChanges
     ? `<div class="warn-box">⚠ You have unsaved changes. Loading will replace the current database.</div>`
     : '';
 
-  const recent     = getRecentProjects();
+  const recent = getRecentProjects();
   const recentHtml = recent.length ? `
     <div style="margin-bottom:16px">
       <div style="font-family:var(--mono);font-size:10px;font-weight:600;text-transform:uppercase;
@@ -173,36 +173,77 @@ function openLoadProject() {
             <span class="recent-item-time">${formatRelTime(r.loadedAt)}</span>
             <span style="font-size:11px;color:var(--text-muted);cursor:pointer;padding:2px 4px"
               title="Remove from recent"
-              onclick="event.stopPropagation();removeRecentProject('${escHtml(r.name)}');openLoadProject()">✕</span>
+              onclick="event.stopPropagation();removeRecentProject('${escHtml(r.name)}');openLoadProjectModal()">✕</span>
           </div>`).join('')}
-      </div>
-      <div style="font-family:var(--mono);font-size:10px;color:var(--text-muted);margin-bottom:12px">
-        ↑ Recently loaded — browse to load again
       </div>
     </div>` : '';
 
   showModal(`
-    <div class="modal" onclick="event.stopPropagation()" style="width:480px">
+    <div class="modal" onclick="event.stopPropagation()" style="width:520px">
       <div class="modal-title">Load Project</div>
-      <div class="modal-sub">Open a <code style="font-family:var(--mono);color:var(--accent)">.lockit.json</code> file.</div>
+      <div class="modal-sub">Choose a Local file or a Remote GitHub project.</div>
       ${warnHtml}
       ${recentHtml}
-      <div class="file-drop" id="load-drop-zone"
-        onclick="document.getElementById('json-file-input').click()"
-        ondragover="event.preventDefault();this.classList.add('drag')"
-        ondragleave="this.classList.remove('drag')"
-        ondrop="handleLoadDrop(event)">
-        <div class="drop-icon">📁</div>
-        <p>Click to browse or drag & drop a .lockit.json file</p>
-        <p id="load-filename" style="margin-top:6px;color:var(--accent);font-family:var(--mono);font-size:12px"></p>
+
+      <div style="display:flex; gap:16px; margin-top:20px;">
+        <!-- Local -->
+        <div style="flex:1;">
+          <div style="font-weight:600; font-size:12px; margin-bottom:8px;">Local File</div>
+          <div class="file-drop" id="load-drop-zone"
+            onclick="document.getElementById('json-file-input').click()"
+            ondragover="event.preventDefault();this.classList.add('drag')"
+            ondragleave="this.classList.remove('drag')"
+            ondrop="handleLoadDrop(event)" style="padding:20px 10px; min-height:80px;">
+            <div class="drop-icon" style="font-size:24px;">📁</div>
+            <p>Click or drag .lockit.json</p>
+            <p id="load-filename" style="margin-top:6px;color:var(--accent);font-family:var(--mono);font-size:11px"></p>
+          </div>
+          <button class="btn btn-primary" id="load-btn" disabled onclick="doLoadProject()" style="width:100%; margin-top:8px;">Load Local File</button>
+        </div>
+
+        <!-- Remote -->
+        <div style="flex:1;">
+          <div style="font-weight:600; font-size:12px; margin-bottom:8px;">GitHub Cloud</div>
+          <div id="github-list-container" style="border:1px solid var(--border); border-radius:6px; background:var(--bg); height:124px; overflow-y:auto; padding:8px;">
+            <div style="color:var(--text-muted); font-size:12px; text-align:center; margin-top:30px;">Loading remote files...</div>
+          </div>
+        </div>
       </div>
+
       <input type="file" id="json-file-input" accept=".json,application/json"
         style="display:none" onchange="handleLoadSelect(this)">
-      <div class="modal-actions">
+        
+      <div class="modal-actions" style="margin-top:20px;">
         <button class="btn btn-ghost" onclick="closeModalForce()">Cancel</button>
-        <button class="btn btn-primary" id="load-btn" disabled onclick="doLoadProject()">Load File</button>
       </div>
-    </div>`);
+    </div>
+  `);
+
+  // Fetch GitHub files
+  const ghContainer = document.getElementById('github-list-container');
+  try {
+    if (!getSetting('github_token')) {
+      ghContainer.innerHTML = '<div style="color:var(--text-muted); font-size:12px; text-align:center; margin-top:30px;">GitHub is not configured.<br><br><a href="#" onclick="closeModalForce(); openSettings(); return false;" style="color:var(--accent)">⚙ Open Settings</a></div>';
+      return;
+    }
+    
+    const files = await fetchListFromGithub();
+    if (files.length === 0) {
+      ghContainer.innerHTML = '<div style="color:var(--text-muted); font-size:12px; text-align:center; margin-top:30px;">No .json files found in remote folder.</div>';
+    } else {
+      ghContainer.innerHTML = files.map(f => `
+        <div style="padding:6px; border-bottom:1px solid var(--border); cursor:pointer; font-size:12px; border-radius:4px; margin-bottom:2px;" 
+             class="remote-file-item"
+             onmouseover="this.style.background='var(--border)'" 
+             onmouseout="this.style.background='transparent'"
+             onclick="doLoadRemoteProject('${f.name}')">
+          ☁ ${escHtml(f.name)}
+        </div>
+      `).join('');
+    }
+  } catch (err) {
+    ghContainer.innerHTML = `<div style="color:var(--accent2); font-size:12px; text-align:center; margin-top:30px;">Error: ${escHtml(err.message)}</div>`;
+  }
 }
 
 function handleLoadDrop(e) {
@@ -276,4 +317,59 @@ function doLoadProject() {
   };
 
   reader.readAsText(file, 'utf-8');
+}
+
+// ── Remote GitHub API Load / Save ──
+
+async function doLoadRemoteProject(filename) {
+  try {
+    setStatus(`Downloading ${filename} from GitHub...`);
+    const jsonString = await loadFileFromGithub(filename);
+    const data = JSON.parse(jsonString);
+    
+    deserializeDB(data);
+    const fname = data.projectName || filename.replace(/\.lockit\.json$/i, '').replace(/\.json$/i, '');
+    state.activeCategory = '__ALL__';
+    state.filters = {};
+    
+    closeModalForce();
+    renderTable();
+    markSaved(fname);
+    pushRecentProject(fname);
+    setStatus(`Loaded remote: ${fname} — ${db.strings.size} strings`);
+  } catch (err) {
+    alert(`Failed to load remote project: ${err.message}`);
+    setStatus('');
+  }
+}
+
+async function saveProjectRemote() {
+  if (db.strings.size === 0) { alert('Nothing to save — database is empty.'); return; }
+  
+  if (!getSetting('github_token')) {
+    alert('GitHub Cloud Sync is not configured. Please set your token and repository inside Settings first.');
+    openSettings();
+    return;
+  }
+
+  if (!currentProjectName) {
+    // If no project name yet, prompt for it locally first to establish a filename
+    alert('Please save locally once or define a project name before pushing to remote.');
+    saveProject(); 
+    return;
+  }
+  
+  try {
+    setStatus('Pushing to GitHub...');
+    const name = currentProjectName;
+    const filename = `${toSnakeCase(name)}.lockit.json`;
+    const json = JSON.stringify({ ...serializeDB(), projectName: name }, null, 2);
+    
+    await saveToGithub(filename, json);
+    markSaved(name);
+    setStatus(`☁ Successfully pushed to GitHub: ${filename}`);
+  } catch (err) {
+    alert(`Failed to push to GitHub: ${err.message}`);
+    setStatus('');
+  }
 }
