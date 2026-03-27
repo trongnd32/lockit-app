@@ -1,0 +1,2310 @@
+{
+  "version": 1,
+  "projectName": "Mewgenics",
+  "savedAt": "2026-03-27T08:57:19.159Z",
+  "categories": [
+    "general",
+    "additions"
+  ],
+  "languages": [
+    "en",
+    "sp",
+    "fr",
+    "de",
+    "it",
+    "pt-br",
+    "ru",
+    "ko",
+    "ja",
+    "zh",
+    "vi"
+  ],
+  "strings": [
+    {
+      "id": "KEYWORD_DEHYDRATED_NAME",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": "Sóng Nhiệt"
+      }
+    },
+    {
+      "id": "KEYWORD_DEHYDRATED_DESC",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": "Hồi máu bị giảm đi 1. Không hồi máu sau trận chiến. Có thể giảm nhẹ bằng nước."
+      }
+    },
+    {
+      "id": "DEBUG_TEST_GERMAN_WORDWRAPPING",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": "WWWW&nbsp;WWW[img:str]WWWW WWWWWWWW"
+      }
+    },
+    {
+      "id": "ADVENTURE_BOX_LABEL",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": "[b]Phiêu lưu[/b]"
+      }
+    },
+    {
+      "id": "EVENT_GENIE_CHOICE_WEALTH",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": "Của cải!"
+      }
+    },
+    {
+      "id": "EVENT_GENIE_CHOICE_LOOKS",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": "Ngoại hình!"
+      }
+    },
+    {
+      "id": "EVENT_GENIE_CHOICE_POWER",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": "Sức mạnh!"
+      }
+    },
+    {
+      "id": "EVENT_GENIE_CHOICE_CURSEMIND",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": "Nguyền rủa Tâm trí"
+      }
+    },
+    {
+      "id": "EVENT_GENIE_CHOICE_CURSEBODY",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": "Nguyền rủa Thân xác"
+      }
+    },
+    {
+      "id": "EVENT_GENIE_CHOICE_CURSESOUL",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": "Nguyền rủa Linh hồn"
+      }
+    },
+    {
+      "id": "POPUP_SWITCH_LANGUAGE_INGAME_WARNING",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": "Một số văn bản có thể chưa cập nhật sang ngôn ngữ mới cho đến khi bạn khởi động lại game."
+      }
+    },
+    {
+      "id": "TOOLTIP_HINT_UNCOMPLETABLE_QUEST_LABEL",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": "Thiếu thứ gì đó..."
+      }
+    },
+    {
+      "id": "TOOLTIP_HINT_UNCOMPLETABLE_QUEST_DESC",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": "Hiện bạn không đủ điều kiện để hoàn thành nhiệm vụ này."
+      }
+    },
+    {
+      "id": "EVENT_MYSTERIOUSTENT_PROMPT",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": "Vào Cửa hàng"
+      }
+    },
+    {
+      "id": "EVENT_TRACY_REW3B",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": "[i]\"Đây, ăn chút gì đi.\"[/i]"
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT1_NAME",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": "Thí nghiệm Stacy"
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT1_QUES1",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": "{catname} tìm thấy một cỗ máy lớn với vài cái nút.\n\nQua cửa sổ trong suốt, {he} thấy một con mèo lạ có thêm một cái đầu."
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT1_QUES1_M",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": ""
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT1_QUES1_F",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": ""
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT1_QUES1_N",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": "{catname} tìm thấy một cỗ máy lớn với vài cái nút.\n\nQua cửa sổ trong suốt, họ thấy một con mèo lạ có thêm một cái đầu."
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT1_QUES2",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": "{catname} lại gần cỗ máy và cân nhắc các lựa chọn của {his}.\n\n{he} nên trao đột biến cơ thể nào cho bản sao Stacy?"
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT1_QUES2_M",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": ""
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT1_QUES2_F",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": ""
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT1_QUES2_N",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": ""
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT1_ANSW1",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": "Gai"
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT1_REW1",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": "Một cánh tay robot vung xuống và tiêm vào bản sao.\n\nGai nhọn đâm toạc qua da của con mèo!"
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT1_REW1_M",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": ""
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT1_REW1_F",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": ""
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT1_REW1_N",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": ""
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT1_ANSW2",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": "Phòng thủ"
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT1_REW2",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": "Một cánh tay robot vung xuống và tiêm vào bản sao, cho nó khả năng Phòng thủ!"
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT1_REW2_M",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": ""
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT1_REW2_F",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": ""
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT1_REW2_N",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": ""
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT1_ANSW3",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": "Khiên Thánh"
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT1_REW3",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": "Một cánh tay robot vung xuống và tiêm vào bản sao...\n\nNó bắt đầu phát sáng hào quang của một Khiên Thánh!"
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT1_REW3_M",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": ""
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT1_REW3_F",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": ""
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT1_REW3_N",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": ""
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT1_ANSW4",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": "Không cảm ơn"
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT1_REW4",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": "{catname} kéo cần gạt để bỏ qua và cỗ máy kêu inh ỏi vào mặt {him}.\n\nMột cánh tay robot vung xuống và tiêm vào {catname}!"
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT1_REW4_M",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": ""
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT1_REW4_F",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": ""
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT1_REW4_N",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": ""
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT1_REW4_B",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": "{catname} đã bị nhiễm độc và cảm thấy buồn nôn..."
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT1_REW4_B_M",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": ""
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT1_REW4_B_F",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": ""
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT1_REW4_B_N",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": ""
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT2_NAME",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": "Thí nghiệm Stacy"
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT2_QUES",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": "Cỗ máy hiện ra các nút bấm có biểu tượng nguyên tố trước mặt {catname}."
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT2_QUES_M",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": ""
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT2_QUES_F",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": ""
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT2_QUES_N",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": ""
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT2_ANSW1",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": "Lửa"
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT2_REW1",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": "Cỗ máy tiêm vào bản sao...\n\nLông nó chuyển màu đỏ thẫm và một quả cầu lửa xuất hiện trên đầu nó!"
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT2_REW1_M",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": ""
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT2_REW1_F",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": ""
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT2_REW1_N",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": ""
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT2_ANSW2",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": "Băng"
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT2_REW2",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": "Bản sao chuyển sang màu xanh băng giá khi được truyền nguyên tố băng!"
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT2_REW2_M",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": ""
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT2_REW2_F",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": ""
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT2_REW2_N",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": ""
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT2_ANSW3",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": "Sét"
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT2_REW3",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": "Những tia sét lóe lên qua bộ lông của bản sao!"
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT2_REW3_M",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": ""
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT2_REW3_F",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": ""
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT2_REW3_N",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": ""
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT2_ANSW4",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": "Không cảm ơn"
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT2_REW4",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": "{catname} kéo cần gạt hủy bỏ và cỗ máy tiêm vào {him} thay vì bản sao!"
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT2_REW4_M",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": ""
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT2_REW4_F",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": ""
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT2_REW4_N",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": ""
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT3_NAME",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": "Thí nghiệm Stacy"
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT3_QUES",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": "Bản sao qua ô cửa sổ rên gừ gừ phấn khích khi cỗ máy hiện ra các nút điều chỉnh chỉ số trước mặt {catname}..."
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT3_QUES_M",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": ""
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT3_QUES_F",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": ""
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT3_QUES_N",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": ""
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT3_ANSW1",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": "Tăng Máu, Giảm Tốc độ"
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT3_REW1",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": "Bản sao đã được sửa đổi với Tăng Máu và Giảm Tốc độ!"
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT3_REW1_M",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": ""
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT3_REW1_F",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": ""
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT3_REW1_N",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": ""
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT3_ANSW2",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": "Tăng Sát thương, Giảm Máu"
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT3_REW2",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": "Bản sao đã được sửa đổi với Tăng Sát thương và Giảm Máu!"
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT3_REW2_M",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": ""
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT3_REW2_F",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": ""
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT3_REW2_N",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": ""
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT3_ANSW3",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": "Tăng Tốc độ, Giảm Sát thương"
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT3_REW3",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": "Bản sao đã nhận được Tăng Tốc độ và Giảm Sát thương!"
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT3_REW3_M",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": ""
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT3_REW3_F",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": ""
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT3_REW3_N",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": ""
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT3_ANSW4",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": "Không cảm ơn"
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT3_REW4",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": "Cỗ máy tiêm vào {catname}. {He} thét lên đau đớn khi toàn bộ cơ thể {his} bị xé toạc và gãy nát!"
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT3_REW4_M",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": ""
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT3_REW4_F",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": ""
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT3_REW4_N",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": "Cỗ máy tiêm vào {catname}. Họ thét lên đau đớn khi toàn bộ cơ thể họ bị xé toạc và gãy nát!"
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT4_NAME",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": "Thí nghiệm Stacy"
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT4_QUES",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": "Giai đoạn cuối cùng để đột biến bản sao đã đến. {catname} phải chọn một đột biến đầu!"
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT4_QUES_M",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": ""
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT4_QUES_F",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": ""
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT4_QUES_N",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": ""
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT4_ANSW1",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": "Đầu Kép"
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT4_REW1",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": "Một cái đầu nữa mọc ra từ bản sao!\n\nGiờ nó có thêm một lượt mỗi hiệp."
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT4_REW1_M",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": ""
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT4_REW1_F",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": ""
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT4_REW1_N",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": ""
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT4_ANSW2",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": "Chân Thứ Ba"
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT4_REW2",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": "Cỗ máy tiêm vào bản sao lần cuối...\n\nMột cái chân thứ ba mọc ra từ đầu nó, cho nó khả năng gây chảy máu và phản công!"
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT4_REW2_M",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": ""
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT4_REW2_F",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": ""
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT4_REW2_N",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": ""
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT4_ANSW3",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": "Gương Phản Chiếu"
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT4_REW3",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": "Mắt của bản sao trở thành những tấm gương phản chiếu!\n\nNó nhận được khả năng Phản Xạ Đạn và Giải Phóng Phép Thuật!"
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT4_REW3_M",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": ""
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT4_REW3_F",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": ""
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT4_REW3_N",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": ""
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT4_ANSW4",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": "Không cảm ơn"
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT4_REW4",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": "{catname} đoán được điều gì sắp xảy ra nhưng vẫn nhăn mặt khi cỗ máy tiêm vào {him}!"
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT4_REW4_M",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": ""
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT4_REW4_F",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": ""
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT4_REW4_N",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": ""
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT4_REW5",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": "{Catname} cảm thấy kiệt sức..."
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT4_REW5_M",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": ""
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT4_REW5_F",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": ""
+      }
+    },
+    {
+      "id": "QEVENT_STACYMUTANT4_REW5_N",
+      "category": "additions",
+      "notes": "",
+      "langs": {
+        "en": "",
+        "sp": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "pt-br": "",
+        "ru": "",
+        "ko": "",
+        "ja": "",
+        "zh": "",
+        "vi": ""
+      }
+    }
+  ]
+}
