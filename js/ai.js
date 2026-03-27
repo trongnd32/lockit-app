@@ -161,13 +161,25 @@ function launchAiTrans(id) {
   const prompt = _buildAiPrompt(id);
   if (!prompt) return;
 
-  const model = localStorage.getItem('lockit_settings_ai_model') || 'chatgpt';
+  const model = getSetting('ai_model', 'chatgpt');
+  const execMode = getSetting('ai_exec_mode', 'sidepanel');
 
-  // Send request to the extension to open AI side panel
-  document.dispatchEvent(new CustomEvent('TranslManager_OpenAI', { 
-    detail: { prompt, model } 
-  }));
-  
-  closeModalForce();
-  setStatus('Requested extension to open AI side panel (' + model + ')…');
+  if (execMode === 'api') {
+    const apiKey = getSetting(model === 'gemini' ? 'gemini_api_key' : 'openai_api_key', '');
+    if (!apiKey) {
+      alert(`Please set your ${model === 'gemini' ? 'Gemini' : 'OpenAI'} API Key in Settings first!`);
+      closeModalForce();
+      openSettings();
+      return;
+    }
+    doApiTranslation(id, prompt, model, apiKey);
+  } else {
+    // Send request to the extension to open AI side panel
+    document.dispatchEvent(new CustomEvent('TranslManager_OpenAI', { 
+      detail: { prompt, model } 
+    }));
+    
+    closeModalForce();
+    setStatus('Requested extension to open AI side panel (' + model + ')…');
+  }
 }
