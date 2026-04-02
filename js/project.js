@@ -178,15 +178,24 @@ async function openLoadProjectModal() {
       <div style="font-family:var(--mono);font-size:10px;font-weight:600;text-transform:uppercase;
                   letter-spacing:0.8px;color:var(--text-muted);margin-bottom:8px">Recent Projects</div>
       <div class="recent-list">
-        ${recent.map(r => `
-          <div class="recent-item" title="${escHtml(r.name)}.lockit.json">
-            <span style="font-size:14px">📄</span>
+        ${recent.map(r => {
+          const isRemote = r.type === 'remote';
+          const icon = isRemote ? '<span style="color:var(--accent)">☁</span>' : '📁';
+          const filename = `${toSnakeCase(r.name)}.lockit.json`;
+          const clickHandler = isRemote 
+             ? `doLoadRemoteProject('${escHtml(filename)}')`
+             : `alert('Browser security requires you to manually select local files. Please click the Local File dropzone.'); document.getElementById('json-file-input').click()`;
+
+          return `
+          <div class="recent-item" title="${escHtml(filename)} (${isRemote ? 'Remote Cloud' : 'Local Disk'})" style="cursor:pointer;" onclick="${clickHandler}">
+            <span style="font-size:14px">${icon}</span>
             <span class="recent-item-name">${escHtml(r.name)}</span>
             <span class="recent-item-time">${formatRelTime(r.loadedAt)}</span>
             <span style="font-size:11px;color:var(--text-muted);cursor:pointer;padding:2px 4px"
               title="Remove from recent"
               onclick="event.stopPropagation();removeRecentProject('${escHtml(r.name)}');openLoadProjectModal()">✕</span>
-          </div>`).join('')}
+          </div>`;
+        }).join('')}
       </div>
     </div>` : '';
 
@@ -347,7 +356,7 @@ async function doLoadRemoteProject(filename) {
     closeModalForce();
     renderTable();
     markSaved(fname);
-    pushRecentProject(fname);
+    pushRecentProject(fname, 'remote');
     setStatus(`Loaded remote: ${fname} — ${db.strings.size} strings`);
   } catch (err) {
     alert(`Failed to load remote project: ${err.message}`);

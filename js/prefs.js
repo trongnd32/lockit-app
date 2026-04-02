@@ -131,9 +131,9 @@ function getRecentProjects() {
   catch { return []; }
 }
 
-function pushRecentProject(name) {
+function pushRecentProject(name, type = 'local') {
   let list = getRecentProjects().filter(r => r.name !== name);
-  list.unshift({ name, loadedAt: Date.now() });
+  list.unshift({ name, type, loadedAt: Date.now() });
   if (list.length > MAX_RECENT) list = list.slice(0, MAX_RECENT);
   try { localStorage.setItem(RECENT_KEY, JSON.stringify(list)); } catch { }
 }

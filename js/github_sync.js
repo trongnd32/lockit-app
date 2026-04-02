@@ -24,7 +24,7 @@ async function createGithubRequest(endpoint, method = 'GET', body = null) {
     'Authorization': `Bearer ${token}`
   };
 
-  const options = { method, headers };
+  const options = { method, headers, cache: 'no-store' };
   if (body) options.body = JSON.stringify(body);
 
   const res = await fetch(`https://api.github.com${endpoint}`, options);
