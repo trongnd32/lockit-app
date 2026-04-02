@@ -1,7 +1,7 @@
 {
   "version": 1,
   "projectName": "Mewgenics",
-  "savedAt": "2026-04-02T10:45:06.676Z",
+  "savedAt": "2026-04-02T11:25:03.629Z",
   "categories": [
     "general",
     "additions",
@@ -6989,17 +6989,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Brace",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Brace",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Phòng thủ"
+        "sp": "",
+        "vi": "Vững chãi",
+        "zh": ""
       }
     },
     {
@@ -7007,17 +7007,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Gain +1 temporary Brace until your next turn.",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Gain +1 temporary Brace until your next turn.",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Nhận +1 Phòng thủ tạm thời cho đến lượt sau của bạn."
+        "sp": "",
+        "vi": "Nhận +1 Vững chãi tạm thời cho đến lượt sau của bạn.",
+        "zh": ""
       }
     },
     {
@@ -7025,17 +7025,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Gain +1 temporary Brace and +1 temporary Thorns until your next turn.",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Gain +1 temporary Brace and +1 temporary Thorns until your next turn.",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Nhận +1 Phòng thủ tạm thời và +1 Gai tạm thời cho đến lượt sau của bạn."
+        "sp": "",
+        "vi": "Nhận +1 Vững chãi tạm thời và +1 Gai tạm thời cho đến lượt sau của bạn.",
+        "zh": ""
       }
     },
     {
