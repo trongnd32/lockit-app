@@ -102,12 +102,16 @@ function deserializeDB(data) {
     notes:    s.notes    || '',
     langs:    s.langs    || {},
   }));
-  (data.terminologies || []).forEach(t => _origTermSet(t.id, {
-    id:       t.id,
-    category: t.category || 'general',
-    notes:    t.notes    || '',
-    langs:    t.langs    || {},
-  }));
+  (data.terminologies || data.terminology || data.terms || []).forEach(t => {
+    const tid = t.id || t.key || t.name || t.term;
+    if (!tid) return;
+    _origTermSet(tid, {
+      id:       tid,
+      category: t.category || 'general',
+      notes:    t.notes    || t.description || t.desc || '',
+      langs:    t.langs    || t.translations || {},
+    });
+  });
 }
 
 // ── Save ──
