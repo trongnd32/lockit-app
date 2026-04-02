@@ -1,7 +1,7 @@
 {
   "version": 1,
   "projectName": "Mewgenics",
-  "savedAt": "2026-04-02T11:25:03.629Z",
+  "savedAt": "2026-04-02T16:31:52.237Z",
   "categories": [
     "general",
     "additions",
@@ -395026,6 +395026,44 @@
         "ja": "",
         "zh": "",
         "vi": "Một vài bụi gai xuất hiện trong mỗi trận chiến, nhưng có điều gì đó kỳ lạ về chúng..."
+      }
+    }
+  ],
+  "terminologies": [
+    {
+      "id": "ABILITY_GROOM",
+      "category": "abilities",
+      "notes": "",
+      "langs": {
+        "de": "",
+        "en": "Groom",
+        "fr": "",
+        "it": "",
+        "ja": "",
+        "ko": "",
+        "pt-br": "",
+        "ru": "",
+        "sp": "",
+        "vi": "Chải chuốt",
+        "zh": ""
+      }
+    },
+    {
+      "id": "ABILITY_BRACE",
+      "category": "abilities",
+      "notes": "",
+      "langs": {
+        "de": "",
+        "en": "Brace",
+        "fr": "",
+        "it": "",
+        "ja": "",
+        "ko": "",
+        "pt-br": "",
+        "ru": "",
+        "sp": "",
+        "vi": "Vững chãi",
+        "zh": ""
       }
     }
   ]
