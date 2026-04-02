@@ -69,10 +69,41 @@ async function loadFileFromGithub(filename) {
   const endpoint = `/repos/${repo}/contents/${filepath}?ref=${branch}`;
   
   const fileData = await createGithubRequest(endpoint);
-  if (fileData.encoding === 'base64') {
+  
+  if (Array.isArray(fileData)) {
+    throw new Error(`Expected a file but found a directory at ${filepath}`);
+  }
+
+  // Best approach: Always try download_url first. It avoids the 1MB base64 limit of the
+  // Content API, and directly handles UTF-8 streaming without manual atob logic.
+  if (fileData.download_url) {
+    // raw.githubusercontent URLs for private repos ALREADY contain a token.
+    // Putting Authorization headers can sometimes conflict or 400.
+    const res = await fetch(fileData.download_url);
+    if (res.ok) {
+      const text = await res.text();
+      // Only return if it's not surprisingly empty, or if the file is actually 0 bytes.
+      if (text.trim() !== "" || fileData.size === 0) {
+        return text;
+      }
+    }
+  }
+
+  if (fileData.encoding === 'base64' && fileData.content) {
     return atobUTF8(fileData.content.replace(/\n/g, ''));
   }
-  throw new Error("Unknown encoding format from GitHub.");
+
+  if ((fileData.encoding === 'utf-8' || fileData.encoding === 'utf8') && fileData.content) {
+    return fileData.content;
+  }
+
+  if ((!fileData.encoding || fileData.encoding === 'none') && typeof fileData.content === 'string') {
+    if (fileData.content.trim() !== "" || fileData.size === 0) {
+      return fileData.content;
+    }
+  }
+
+  throw new Error(`Failed to resolve GitHub file. Encoding: "${fileData.encoding}", Size: ${fileData.size} bytes. Missing download_url or empty payload.`);
 }
 
 /** Saves JSON to GitHub (creating or updating existing file) */
