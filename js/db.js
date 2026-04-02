@@ -4,9 +4,10 @@
 // re-sort on export unless the user explicitly requests it.
 
 const db = {
-  strings:    new Map(),            // id -> { id, category, notes, langs }
-  categories: new Set(['general']),
-  languages:  new Set(),
+  strings:       new Map(),         // id -> { id, category, notes, langs }
+  terminologies: new Map(),         // id -> { id, category, notes, langs }
+  categories:    new Set(['general']),
+  languages:     new Set(),
 };
 
 // Intercept mutations so every change auto-marks the project as unsaved.
@@ -14,11 +15,15 @@ const db = {
 // so the _orig* references are always available (used by deserializeDB).
 const _origSet    = db.strings.set.bind(db.strings);
 const _origDel    = db.strings.delete.bind(db.strings);
+const _origTermSet = db.terminologies.set.bind(db.terminologies);
+const _origTermDel = db.terminologies.delete.bind(db.terminologies);
 const _origCatAdd = db.categories.add.bind(db.categories);
 
-db.strings.set    = (k, v) => { const r = _origSet(k, v);    markUnsaved(); return r; };
-db.strings.delete = (k)    => { const r = _origDel(k);       markUnsaved(); return r; };
-db.categories.add = (v)    => { const r = _origCatAdd(v);    markUnsaved(); return r; };
+db.strings.set          = (k, v) => { const r = _origSet(k, v);       markUnsaved(); return r; };
+db.strings.delete       = (k)    => { const r = _origDel(k);          markUnsaved(); return r; };
+db.terminologies.set    = (k, v) => { const r = _origTermSet(k, v);   markUnsaved(); return r; };
+db.terminologies.delete = (k)    => { const r = _origTermDel(k);      markUnsaved(); return r; };
+db.categories.add       = (v)    => { const r = _origCatAdd(v);       markUnsaved(); return r; };
 
 
 // ── UI state ─────────────────────────────────────────────────────────────────
@@ -27,6 +32,7 @@ db.categories.add = (v)    => { const r = _origCatAdd(v);    markUnsaved(); retu
 // this scale.
 
 const state = {
+  viewMode: 'strings',       // 'strings' | 'terminologies'
   activeCategory: '__ALL__',
   sortCol:    null,          // null = insertion order (never sorted by default)
   sortDir:    'asc',

@@ -80,6 +80,7 @@ function serializeDB() {
     categories:  [...db.categories],
     languages:   [...db.languages],
     strings:     [...db.strings.values()],
+    terminologies: [...db.terminologies.values()],
   };
 }
 
@@ -89,6 +90,7 @@ function deserializeDB(data) {
   // Use the raw pre-intercept methods so we don't fire markUnsaved() thousands
   // of times during a bulk load (one call at the end is enough).
   db.strings.clear();
+  db.terminologies.clear();
   db.categories.clear();
   db.languages.clear();
 
@@ -99,6 +101,12 @@ function deserializeDB(data) {
     category: s.category || 'general',
     notes:    s.notes    || '',
     langs:    s.langs    || {},
+  }));
+  (data.terminologies || []).forEach(t => _origTermSet(t.id, {
+    id:       t.id,
+    category: t.category || 'general',
+    notes:    t.notes    || '',
+    langs:    t.langs    || {},
   }));
 }
 

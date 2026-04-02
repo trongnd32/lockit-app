@@ -11,8 +11,9 @@ function getLangs() {
 /** Returns the filtered + optionally sorted array of string objects. */
 function getVisibleStrings() {
   const gs = state.globalSearch.toLowerCase().trim();
+  const targetDb = state.viewMode === 'terminologies' ? db.terminologies : db.strings;
 
-  const filtered = [...db.strings.values()].filter(s => {
+  const filtered = [...targetDb.values()].filter(s => {
     if (state.activeCategory !== '__ALL__' && s.category !== state.activeCategory) return false;
 
     for (const [col, val] of Object.entries(state.filters)) {
@@ -51,11 +52,12 @@ function getVisibleStrings() {
 /** Returns the visible column definitions, respecting hiddenCols. */
 function buildHeaders() {
   const langs = getLangs();
+  const idLabel = state.viewMode === 'terminologies' ? 'Term ID' : 'String ID';
   const all = [
-    { key: 'id',       label: 'String ID' },
+    { key: 'id',       label: idLabel },
     { key: 'category', label: 'Category'  },
     ...langs.map(l => ({ key: `lang_${l}`, label: l.toUpperCase() })),
-    { key: 'notes',    label: 'Notes'     },
+    { key: 'notes',    label: state.viewMode === 'terminologies' ? 'Description' : 'Notes' },
     { key: '_actions', label: ''          },
   ];
   return all.filter(c => c.key === 'id' || c.key === '_actions' || !state.hiddenCols.has(c.key));
@@ -140,13 +142,15 @@ function renderBody(cols) {
 
   const tbody   = document.getElementById('table-body');
   const isEmpty = VS.rows.length === 0;
+  const targetDb = state.viewMode === 'terminologies' ? db.terminologies : db.strings;
+  const labelText = state.viewMode === 'terminologies' ? 'terms' : 'strings';
 
   document.getElementById('empty-state').style.display =
-    isEmpty && db.strings.size === 0 ? 'flex' : 'none';
+    isEmpty && targetDb.size === 0 ? 'flex' : 'none';
   document.querySelector('.table-wrap table').style.display =
-    isEmpty && db.strings.size === 0 ? 'none' : '';
+    isEmpty && targetDb.size === 0 ? 'none' : '';
   document.getElementById('row-count').textContent =
-    `${VS.rows.length} / ${db.strings.size} strings`;
+    `${VS.rows.length} / ${targetDb.size} ${labelText}`;
 
   if (isEmpty) { tbody.innerHTML = ''; return; }
 
@@ -252,12 +256,15 @@ function buildEditRow(s, cols) {
 
 function renderSidebar() {
   const catList  = document.getElementById('cat-list');
-  const allCount = db.strings.size;
+  const targetDb = state.viewMode === 'terminologies' ? db.terminologies : db.strings;
+  const allCount = targetDb.size;
+  const itemLabel = state.viewMode === 'terminologies' ? 'All Terms' : 'All Strings';
+  
   let html = `<div class="cat-item ${state.activeCategory === '__ALL__' ? 'active' : ''}" data-cat="__ALL__" onclick="setCategory('__ALL__')">
-    <span>All Strings</span><span class="cat-count">${allCount}</span>
+    <span>${itemLabel}</span><span class="cat-count">${allCount}</span>
   </div>`;
   for (const cat of [...db.categories].sort()) {
-    const count = [...db.strings.values()].filter(s => s.category === cat).length;
+    const count = [...targetDb.values()].filter(s => s.category === cat).length;
     html += `<div class="cat-item ${state.activeCategory === cat ? 'active' : ''}" data-cat="${escHtml(cat)}" onclick="setCategory('${escHtml(cat)}')">
       <span>${escHtml(cat)}</span><span class="cat-count">${count}</span>
     </div>`;
@@ -269,6 +276,27 @@ function updateStats() {
   document.getElementById('stat-strings').textContent = db.strings.size;
   document.getElementById('stat-langs').textContent   = db.languages.size;
   document.getElementById('stat-cats').textContent    = db.categories.size;
+}
+
+// ── View Mode ──
+
+function setViewMode(mode) {
+  if (state.viewMode === mode) return;
+  state.viewMode = mode;
+  state.editingId = null;
+  state.filters = {};
+  
+  // Update UI toggles
+  document.getElementById('tab-strings').style.borderBottomColor = mode === 'strings' ? 'var(--accent)' : 'transparent';
+  document.getElementById('tab-strings').style.color = mode === 'strings' ? 'var(--text)' : 'var(--text-muted)';
+  
+  document.getElementById('tab-terms').style.borderBottomColor = mode === 'terminologies' ? 'var(--accent)' : 'transparent';
+  document.getElementById('tab-terms').style.color = mode === 'terminologies' ? 'var(--text)' : 'var(--text-muted)';
+
+  const addBtn = document.getElementById('add-btn-main');
+  if (addBtn) addBtn.textContent = mode === 'strings' ? '+ Add String' : '+ Add Term';
+
+  renderTable();
 }
 
 // ── Sort / filter ──

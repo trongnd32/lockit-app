@@ -15,7 +15,8 @@ const AI_STYLES = [
 let _selectedAiStyle = 'natural';
 
 function openAiTrans(id) {
-  const s = db.strings.get(id);
+  const targetDb = state.viewMode === 'terminologies' ? db.terminologies : db.strings;
+  const s = targetDb.get(id);
   if (!s) return;
 
   const langs = getLangs().filter(l => l !== 'en');
@@ -102,7 +103,10 @@ function selectAiStyle(id) {
 }
 
 function _buildAiPrompt(id) {
-  const s = db.strings.get(id);
+  const targetDb = state.viewMode === 'terminologies' ? db.terminologies : db.strings;
+  const entryTypeWord = state.viewMode === 'terminologies' ? 'game terminology' : 'UI/game string';
+  const entryTypeMeta = state.viewMode === 'terminologies' ? 'Terminology ID' : 'String ID';
+  const s = targetDb.get(id);
   const enText = s.langs['en'] || '(no English text provided)';
   const targets = [...document.querySelectorAll('.ai-lang-chip input:checked')].map(i => i.value);
 
@@ -128,10 +132,10 @@ function _buildAiPrompt(id) {
   return `You are a professional game localization translator working on the game "${project}".
 
 ## Task
-Translate the following UI/game string into the specified target language(s). Provide ONLY the translated text for each language — no explanations, no alternatives, no commentary.
+Translate the following ${entryTypeWord} into the specified target language(s). Provide ONLY the translated text for each language — no explanations, no alternatives, no commentary.
 
 ## String Metadata
-- String ID: ${id}
+- ${entryTypeMeta}: ${id}
 - Category: ${s.category}
 - Source language: English (EN)
 

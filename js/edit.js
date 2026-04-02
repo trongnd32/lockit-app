@@ -18,26 +18,29 @@ function commitEdit(oldId) {
   const notesEl = document.getElementById('ie-notes');
   if (!idEl) return;
 
+  const targetDb = state.viewMode === 'terminologies' ? db.terminologies : db.strings;
+  const entryType = state.viewMode === 'terminologies' ? 'Terminology' : 'String';
+
   const newId    = idEl.value.trim();
-  const category = catEl   ? catEl.value   : (db.strings.get(oldId)?.category || 'general');
+  const category = catEl   ? catEl.value   : (targetDb.get(oldId)?.category || 'general');
   const notes    = notesEl ? notesEl.value.trim() : '';
 
   if (!newId) {
     idEl.focus(); idEl.style.borderColor = 'var(--accent2)'; return;
   }
-  if (newId !== oldId && db.strings.has(newId)) {
+  if (newId !== oldId && targetDb.has(newId)) {
     idEl.focus(); idEl.style.borderColor = 'var(--accent2)';
-    alert(`String ID "${newId}" already exists.`); return;
+    alert(`${entryType} ID "${newId}" already exists.`); return;
   }
 
   const langs = {};
   for (const l of getLangs()) {
     const el = document.getElementById(`ie-lang-${l}`);
-    langs[l] = el ? el.value.trim() : (db.strings.get(oldId)?.langs[l] || '');
+    langs[l] = el ? el.value.trim() : (targetDb.get(oldId)?.langs[l] || '');
   }
 
-  if (newId !== oldId) db.strings.delete(oldId);
-  db.strings.set(newId, { id: newId, category, notes, langs });
+  if (newId !== oldId) targetDb.delete(oldId);
+  targetDb.set(newId, { id: newId, category, notes, langs });
 
   state.editingId = null;
   renderTable();
@@ -47,6 +50,11 @@ function commitEdit(oldId) {
 // ── Add string (modal) ────────────────────────────────────────────────────────
 
 function openAddString() {
+  const isTerm = state.viewMode === 'terminologies';
+  const title = isTerm ? 'Add Terminology' : 'Add String';
+  const sub = isTerm ? 'Create a new game terminology.' : 'Create a new translation string.';
+  const idLabel = isTerm ? 'Terminology ID (KEY)' : 'String ID (KEY)';
+  
   const langs      = getLangs();
   const langFields = langs.map(l => `
     <div class="form-group">
@@ -59,10 +67,10 @@ function openAddString() {
 
   showModal(`
     <div class="modal modal-lg" onclick="event.stopPropagation()">
-      <div class="modal-title">Add String</div>
-      <div class="modal-sub">Create a new translation string.</div>
+      <div class="modal-title">${title}</div>
+      <div class="modal-sub">${sub}</div>
       <div class="form-group">
-        <label class="form-label">String ID (KEY)</label>
+        <label class="form-label">${idLabel}</label>
         <input type="text" class="form-input" id="sf-id" placeholder="e.g. UI_BUTTON_OK" style="font-family:var(--mono)">
       </div>
       <div class="form-group">
@@ -86,8 +94,12 @@ function saveNewString() {
   const id       = document.getElementById('sf-id').value.trim();
   const category = document.getElementById('sf-cat').value;
   const notes    = document.getElementById('sf-notes').value.trim();
-  if (!id) { alert('String ID cannot be empty.'); return; }
-  if (db.strings.has(id)) { alert(`String ID "${id}" already exists.`); return; }
+  
+  const targetDb = state.viewMode === 'terminologies' ? db.terminologies : db.strings;
+  const entryType = state.viewMode === 'terminologies' ? 'Terminology' : 'String';
+
+  if (!id) { alert(`${entryType} ID cannot be empty.`); return; }
+  if (targetDb.has(id)) { alert(`${entryType} ID "${id}" already exists.`); return; }
 
   const langs = {};
   for (const l of getLangs()) {
@@ -95,15 +107,17 @@ function saveNewString() {
     if (el) langs[l] = el.value.trim();
   }
 
-  db.strings.set(id, { id, category, notes, langs });
+  targetDb.set(id, { id, category, notes, langs });
   closeModalForce();
   renderTable();
   setStatus(`Added: ${id}`);
 }
 
 function deleteString(id) {
-  if (!confirm(`Delete string "${id}"?`)) return;
-  db.strings.delete(id);
+  const targetDb = state.viewMode === 'terminologies' ? db.terminologies : db.strings;
+  const entryType = state.viewMode === 'terminologies' ? 'terminology' : 'string';
+  if (!confirm(`Delete ${entryType} "${id}"?`)) return;
+  targetDb.delete(id);
   renderTable();
   setStatus(`Deleted: ${id}`);
 }

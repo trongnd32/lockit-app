@@ -60,6 +60,10 @@
 
   <!-- Sidebar: category filter -->
   <aside class="sidebar">
+    <div class="view-tabs" style="display:flex; margin-bottom:16px; border-bottom:1px solid var(--border);">
+      <div id="tab-strings" class="tab active" style="flex:1; text-align:center; font-size:14px; font-weight:600; cursor:pointer; padding-bottom:8px; margin-bottom:-1px; border-bottom:2px solid var(--accent); color:var(--text)" onclick="setViewMode('strings')">Strings</div>
+      <div id="tab-terms" class="tab" style="flex:1; text-align:center; font-size:14px; font-weight:600; cursor:pointer; padding-bottom:8px; margin-bottom:-1px; border-bottom:2px solid transparent; color:var(--text-muted)" onclick="setViewMode('terminologies')">Terminologies</div>
+    </div>
     <div class="sidebar-title">Categories</div>
     <div class="cat-list" id="cat-list">
       <div class="cat-item active" data-cat="__ALL__" onclick="setCategory('__ALL__')">
@@ -80,7 +84,7 @@
       </div>
       <div class="toolbar-sep"></div>
       <button class="btn btn-export btn-sm" onclick="openExportDialog()">↓ Export CSV</button>
-      <button class="btn btn-ghost  btn-sm" onclick="openAddString()">+ Add String</button>
+      <button class="btn btn-ghost  btn-sm" id="add-btn-main" onclick="openAddString()">+ Add String</button>
       <div class="toolbar-sep"></div>
       <!-- Column visibility toggle -->
       <div class="col-toggle-wrap" id="col-toggle-wrap">
