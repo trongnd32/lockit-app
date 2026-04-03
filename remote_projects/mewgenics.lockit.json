@@ -1,7 +1,7 @@
 {
   "version": 1,
   "projectName": "Mewgenics",
-  "savedAt": "2026-04-03T07:13:26.255Z",
+  "savedAt": "2026-04-03T10:58:29.850Z",
   "categories": [
     "general",
     "additions",
@@ -7034,7 +7034,7 @@
         "pt-br": "",
         "ru": "",
         "sp": "",
-        "vi": "Nhận +1 Vững chãi tạm thời và +1 Gai góc tạm thời cho đến lượt sau của bạn.",
+        "vi": "Nhận +1 Vững chãi tạm thời và +1 Gai Góc tạm thời cho đến lượt sau của bạn.",
         "zh": ""
       }
     },
@@ -7475,17 +7475,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Metabolize",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Metabolize",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Trao Đổi Chất"
+        "sp": "",
+        "vi": "Chuyển hoá năng lượng",
+        "zh": ""
       }
     },
     {
@@ -7511,17 +7511,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Gain +1 [img:con].\nBonus Passive: +3 Health Regeneration.",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Gain +1 [img:con].\nBonus Passive: +3 Health Regeneration.",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Nhận +1 [img:con].\nNội tại bổ trợ: +3 Hồi phục Máu."
+        "sp": "",
+        "vi": "Nhận +1 [img:con].\nNội tại: +3 Hồi Máu Cơ Bản.",
+        "zh": ""
       }
     },
     {
@@ -7565,17 +7565,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Reduce the cost of ALL of your spells by 1 mana.",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Reduce the cost of ALL of your spells by 1 mana.",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Giảm 1 mana chi phí của TẤT CẢ phép."
+        "sp": "",
+        "vi": "Giảm 1 mana chi phí của TẤT CẢ các phép.",
+        "zh": ""
       }
     },
     {
@@ -7583,17 +7583,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Claws Out",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Claws Out",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Xòe Vuốt"
+        "sp": "",
+        "vi": "Giương Vuốt",
+        "zh": ""
       }
     },
     {
@@ -7601,17 +7601,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Gain +1 Thorns.",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Gain +1 Thorns.",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Nhận +1 Gai."
+        "sp": "",
+        "vi": "Nhận +1 Gai Góc.",
+        "zh": ""
       }
     },
     {
@@ -7619,17 +7619,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Gain +1 Thorns.\n[s:.7](This spell costs less.)[/s]",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Gain +1 Thorns.\n[s:.7](This spell costs less.)[/s]",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Nhận +1 Gai.\n[s:.7](Phép này tốn ít chi phí hơn.)[/s]"
+        "sp": "",
+        "vi": "Nhận +1 Gai Góc.\n[s:.7](Phép này tốn ít chi phí hơn.)[/s]",
+        "zh": ""
       }
     },
     {
@@ -7961,17 +7961,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Flex",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Flex",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Gồng"
+        "sp": "",
+        "vi": "Gồng Mình",
+        "zh": ""
       }
     },
     {
@@ -7979,17 +7979,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Gain +1 temporary Brace until your next turn and deal 1 knockback to each adjacent unit.",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Gain +1 temporary Brace until your next turn and deal 1 knockback to each adjacent unit.",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Nhận +1 Phòng thủ tạm thời đến lượt sau và đẩy lùi 1 ô mọi đơn vị liền kề."
+        "sp": "",
+        "vi": "Nhận +1 Vững Chãi tạm thời đến lượt sau và đẩy lùi 1 ô mọi đơn vị liền kề.",
+        "zh": ""
       }
     },
     {
@@ -7997,17 +7997,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Gain +1 temporary Brace until your next turn and deal 3 knockback to each adjacent unit.\n[s:.7](This spell costs less.)[/s]",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Gain +1 temporary Brace until your next turn and deal 3 knockback to each adjacent unit.\n[s:.7](This spell costs less.)[/s]",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Nhận +1 Phòng thủ tạm thời đến lượt sau và đẩy lùi 3 ô mọi đơn vị liền kề.\n[s:.7](Phép này tốn ít chi phí hơn.)[/s]"
+        "sp": "",
+        "vi": "Nhận +1 Vững Chãi tạm thời đến lượt sau và đẩy lùi 3 ô mọi đơn vị liền kề.\n[s:.7](Phép này tốn ít chi phí hơn.)[/s]",
+        "zh": ""
       }
     },
     {
@@ -8015,17 +8015,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Dart",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Dart",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Phóng Kim"
+        "sp": "",
+        "vi": "Phi Móng",
+        "zh": ""
       }
     },
     {
@@ -8033,17 +8033,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Throw a nail that ignores shield.",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Throw a nail that ignores shield.",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Ném một cái đinh phớt lờ khiên."
+        "sp": "",
+        "vi": "Bắn ra một chiếc móng gây sát thương, bỏ qua khiên.",
+        "zh": ""
       }
     },
     {
@@ -8051,17 +8051,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Throw a stronger nail that ignores shield.\n[s:.7](This spell costs less.)[/s]",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Throw a stronger nail that ignores shield.\n[s:.7](This spell costs less.)[/s]",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Ném một cái đinh mạnh hơn phớt lờ khiên.\n[s:.7](Phép này tốn ít chi phí hơn.)[/s]"
+        "sp": "",
+        "vi": "Bắn ra một chiếc móng gây sát thương, bỏ qua khiên.\n[s:.7](Phép này tốn ít chi phí hơn.)[/s]",
+        "zh": ""
       }
     },
     {
@@ -8123,17 +8123,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Spit",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Spit",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Phun"
+        "sp": "",
+        "vi": "Phun nước miếng",
+        "zh": ""
       }
     },
     {
@@ -8141,17 +8141,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Spit attack with infinite range that deals 1 damage.",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Spit attack with infinite range that deals 1 damage.",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Đòn phun có tầm vô hạn gây 1 sát thương."
+        "sp": "",
+        "vi": "Phun nước miếng có tầm vô hạn gây 1 sát thương.",
+        "zh": ""
       }
     },
     {
@@ -8159,17 +8159,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Spit attack with infinite range that deals 2 damage in an area.",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Spit attack with infinite range that deals 2 damage in an area.",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Đòn phun có tầm vô hạn gây 2 sát thương trong một khu vực."
+        "sp": "",
+        "vi": "Phun nước miếng có tầm vô hạn gây 2 sát thương trong một khu vực.",
+        "zh": ""
       }
     },
     {
@@ -8213,17 +8213,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Pull a unit towards you. Deal 1 damage and inflict 1 Bleed on them.",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Pull a unit towards you. Deal 1 damage and inflict 1 Bleed on them.",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Kéo một đơn vị về phía bạn. Gây 1 sát thương và 1 Chảy máu lên mục tiêu."
+        "sp": "",
+        "vi": "Kéo một đơn vị về phía bạn. Gây 1 sát thương và 1 Chảy Máu lên mục tiêu.",
+        "zh": ""
       }
     },
     {
@@ -8285,17 +8285,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Butt Scoot",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Butt Scoot",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Lết Mông"
+        "sp": "",
+        "vi": "Chùi Mông",
+        "zh": ""
       }
     },
     {
@@ -8303,17 +8303,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Move 1 tile, leaving a maggot familiar behind you.",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Move 1 tile, leaving a maggot familiar behind you.",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Di chuyển 1 ô, để lại một con giòi thú cưng phía sau."
+        "sp": "",
+        "vi": "Di chuyển 1 ô, để lại một con giòi thân thiện phía sau.",
+        "zh": ""
       }
     },
     {
@@ -8321,17 +8321,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Move up to 3 tiles, leaving a maggot familiar behind you.",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Move up to 3 tiles, leaving a maggot familiar behind you.",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Di chuyển tối đa 3 ô, để lại một con giòi thú cưng phía sau."
+        "sp": "",
+        "vi": "Di chuyển tối đa 3 ô, để lại một con giòi thân thiện phía sau.",
+        "zh": ""
       }
     },
     {
@@ -8339,17 +8339,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Confusion",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Confusion",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Hỗn Loạn"
+        "sp": "",
+        "vi": "Lú Lẫn",
+        "zh": ""
       }
     },
     {
@@ -8357,17 +8357,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Inflict Confusion 2 on a unit.",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Inflict Confusion 2 on a unit.",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Gây Hỗn loạn 2 lên một đơn vị."
+        "sp": "",
+        "vi": "Gây Lú Lẫn 2 lên một đơn vị.",
+        "zh": ""
       }
     },
     {
@@ -8375,17 +8375,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Inflict Confusion 4 on units in an area.",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Inflict Confusion 4 on units in an area.",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Gây Hỗn loạn 4 lên các đơn vị trong một khu vực."
+        "sp": "",
+        "vi": "Gây Lú Lẫn 4 lên các đơn vị trong một khu vực.",
+        "zh": ""
       }
     },
     {
@@ -8411,17 +8411,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Down yourself. You don't get injured.",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Down yourself. You don't get injured.",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Tự làm bản thân Gục ngã. Bạn không bị chấn thương."
+        "sp": "",
+        "vi": "Tự làm bản thân Gục Ngã. Bạn không bị chấn thương.",
+        "zh": ""
       }
     },
     {
@@ -8429,17 +8429,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Down yourself. You don't get injured. Revive at the end of the next round at full HP.",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Down yourself. You don't get injured. Revive at the end of the next round at full HP.",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Tự làm bản thân Gục ngã. Bạn không bị chấn thương. Hồi sinh vào cuối hiệp sau với đầy Máu."
+        "sp": "",
+        "vi": "Tự làm bản thân Gục Ngã. Bạn không bị chấn thương. Hồi sinh vào cuối hiệp sau với đầy Máu.",
+        "zh": ""
       }
     },
     {
@@ -8717,17 +8717,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Feather Feet",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Feather Feet",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Bước Chân Nhẹ"
+        "sp": "",
+        "vi": "Nhẹ Tựa Lông Hồng",
+        "zh": ""
       }
     },
     {
@@ -8753,17 +8753,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Gain +1 [img:spd].\nBonus Passive: You're unaffected by tile effects.",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Gain +1 [img:spd].\nBonus Passive: You're unaffected by tile effects.",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Nhận +1 [img:spd].\nNội tại bổ trợ: Bạn không bị ảnh hưởng bởi hiệu ứng ô."
+        "sp": "",
+        "vi": "Nhận +1 [img:spd].\nNội tại: Bạn không bị ảnh hưởng bởi hiệu ứng trên ô.",
+        "zh": ""
       }
     },
     {
@@ -8843,17 +8843,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Inflict -1 Damage on a unit.",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Inflict -1 Damage on a unit.",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Gây -1 Sát thương lên một đơn vị."
+        "sp": "",
+        "vi": "Khiến một đơn vị -1 Sát Thương.",
+        "zh": ""
       }
     },
     {
@@ -8861,17 +8861,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Inflict -1 Damage and -1 [img:con] on a unit.",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Inflict -1 Damage and -1 [img:con] on a unit.",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Gây -1 Sát thương và -1 [img:con] lên một đơn vị."
+        "sp": "",
+        "vi": "Khiến một đơn vị -1 Sát thương và -1 [img:con].",
+        "zh": ""
       }
     },
     {
@@ -8879,17 +8879,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Trip",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Trip",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Ngáng Chân"
+        "sp": "",
+        "vi": "Ngáng Đường",
+        "zh": ""
       }
     },
     {
@@ -8915,17 +8915,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Immobilize a unit in range 4.\n[s:.7]This only has a 25% chance to work on boss units and large enemies.[/s]",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Immobilize a unit in range 4.\n[s:.7]This only has a 25% chance to work on boss units and large enemies.[/s]",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Trói chân một đơn vị trong tầm 4.\n[s:.7]Chỉ có 25% cơ hội thành công trên trùm và kẻ thù lớn.[/s]"
+        "sp": "",
+        "vi": "Trói chân một đơn vị trong 4 ô.\n[s:.7]Chỉ có 25% cơ hội thành công trên trùm và kẻ thù lớn.[/s]",
+        "zh": ""
       }
     },
     {
@@ -8933,17 +8933,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Copycat",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Copycat",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Mèo Bắt Chước"
+        "sp": "",
+        "vi": "Bắt Chước",
+        "zh": ""
       }
     },
     {
@@ -8987,17 +8987,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Metronome",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Metronome",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Máy Nhịp"
+        "sp": "",
+        "vi": "Máy Đếm Nhịp",
+        "zh": ""
       }
     },
     {
@@ -9077,17 +9077,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Gain +1 [img:cha].\nBonus Passive: You have a chance to inflict Charm on units that contact or attack you. This chance increases with your [img:cha].",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Gain +1 [img:cha].\nBonus Passive: You have a chance to inflict Charm on units that contact or attack you. This chance increases with your [img:cha].",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Nhận +1 [img:cha].\nNội tại bổ trợ: Bạn có cơ hội gây Mê Hoặc lên các đơn vị chạm vào hoặc tấn công bạn. Cơ hội này tăng theo [img:cha] của bạn."
+        "sp": "",
+        "vi": "Nhận +1 [img:cha].\nNội tại bổ trợ: Bạn có cơ hội gây Mê Hoặc lên các đơn vị chạm vào hoặc tấn công bạn. Tỉ lệ tăng theo [img:cha] của bạn.",
+        "zh": ""
       }
     },
     {
@@ -9311,17 +9311,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Second Wind",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Second Wind",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Hồi Sức"
+        "sp": "",
+        "vi": "Hồi Sức",
+        "zh": ""
       }
     },
     {
@@ -9527,17 +9527,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Find a Rock",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Find a Rock",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Tìm Đá"
+        "sp": "",
+        "vi": "Nhặt Đá",
+        "zh": ""
       }
     },
     {
@@ -9581,17 +9581,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Ass Blast",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Ass Blast",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Đánh Rắm Nổ"
+        "sp": "",
+        "vi": "Rắm Nổ",
+        "zh": ""
       }
     },
     {
@@ -9635,17 +9635,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Burgeoning Blast",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Burgeoning Blast",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Vụ Nổ Tăng Trưởng"
+        "sp": "",
+        "vi": "Càng Lâu Càng Nổ",
+        "zh": ""
       }
     },
     {
@@ -9689,17 +9689,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Burgeoning Barrier",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Burgeoning Barrier",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Lá Chắn Tăng Trưởng"
+        "sp": "",
+        "vi": "Khiên Chồng Khiên",
+        "zh": ""
       }
     },
     {
@@ -9743,17 +9743,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Burgeoning Battery",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Burgeoning Battery",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Năng Lượng Tăng Trưởng"
+        "sp": "",
+        "vi": "Sạc Pin Không Ngừng",
+        "zh": ""
       }
     },
     {
@@ -9905,17 +9905,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Sudden Affliction",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Sudden Affliction",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Bệnh Bộc Phát"
+        "sp": "",
+        "vi": "Tai Hoạ Bất Ngờ",
+        "zh": ""
       }
     },
     {
@@ -10067,17 +10067,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Invert",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Invert",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Đảo Ngược"
+        "sp": "",
+        "vi": "Đảo Ngược",
+        "zh": ""
       }
     },
     {
@@ -10319,17 +10319,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Each unit turns to face you. 20% chance to Confuse enemies.",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Each unit turns to face you. 20% chance to Confuse enemies.",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Mọi đơn vị quay lại nhìn bạn. 20% cơ hội gây Hỗn loạn kẻ thù."
+        "sp": "",
+        "vi": "Mọi đơn vị quay lại nhìn bạn. 20% cơ hội gây Lú Lẫn kẻ thù.",
+        "zh": ""
       }
     },
     {
@@ -10607,17 +10607,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Barf Ball",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Barf Ball",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Cầu Nôn"
+        "sp": "",
+        "vi": "Khạc Búi Lông",
+        "zh": ""
       }
     },
     {
@@ -10661,17 +10661,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Dexterous Hit",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Dexterous Hit",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Đòn Đánh Khéo Léo"
+        "sp": "",
+        "vi": "Võ Nghệ Thượng Thừa",
+        "zh": ""
       }
     },
     {
@@ -10769,17 +10769,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Path of the Mage",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Path of the Mage",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Con Đường Mage"
+        "sp": "",
+        "vi": "Con Đường Pháp Thuật",
+        "zh": ""
       }
     },
     {
@@ -10823,17 +10823,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Path of the Hunter",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Path of the Hunter",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Con Đường Hunter"
+        "sp": "",
+        "vi": "Con Đường Thợ Săn",
+        "zh": ""
       }
     },
     {
@@ -10841,17 +10841,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "A lobbed attack that deals 1 damage. If this kills an enemy, this spell becomes a random Hunter spell permanently.",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "A lobbed attack that deals 1 damage. If this kills an enemy, this spell becomes a random Hunter spell permanently.",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Đòn ném bổng gây 1 sát thương. Nếu hạ gục kẻ thù, phép này trở thành một phép Hunter ngẫu nhiên vĩnh viễn."
+        "sp": "",
+        "vi": "Đòn ném bổng gây 1 sát thương. Nếu hạ gục kẻ thù, phép này trở thành một phép Thợ Săn ngẫu nhiên vĩnh viễn.",
+        "zh": ""
       }
     },
     {
@@ -10859,17 +10859,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Transform this spell into a random upgraded Hunter spell permanently.",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Transform this spell into a random upgraded Hunter spell permanently.",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Biến đổi phép này thành một phép Hunter nâng cấp ngẫu nhiên vĩnh viễn."
+        "sp": "",
+        "vi": "Biến đổi phép này thành một phép Thợ Săn nâng cấp ngẫu nhiên vĩnh viễn.",
+        "zh": ""
       }
     },
     {
@@ -10877,17 +10877,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Path of the Thief",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Path of the Thief",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Con Đường Thief"
+        "sp": "",
+        "vi": "Con Đường Đạo Tặc",
+        "zh": ""
       }
     },
     {
@@ -10895,17 +10895,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "A straight shot attack that deals 1 damage. If this makes a critical hit, this spell becomes a random Thief spell permanently.",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "A straight shot attack that deals 1 damage. If this makes a critical hit, this spell becomes a random Thief spell permanently.",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Đòn bắn thẳng gây 1 sát thương. Nếu gây chí mạng, phép này trở thành một phép Thief ngẫu nhiên vĩnh viễn."
+        "sp": "",
+        "vi": "Đòn bắn thẳng gây 1 sát thương. Nếu gây chí mạng, phép này trở thành một phép Đạo Tặc ngẫu nhiên vĩnh viễn.",
+        "zh": ""
       }
     },
     {
@@ -10913,17 +10913,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Transform this spell into a random upgraded Thief spell permanently.",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Transform this spell into a random upgraded Thief spell permanently.",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Biến đổi phép này thành một phép Thief nâng cấp ngẫu nhiên vĩnh viễn."
+        "sp": "",
+        "vi": "Biến đổi phép này thành một phép Đạo Tặc nâng cấp ngẫu nhiên vĩnh viễn.",
+        "zh": ""
       }
     },
     {
@@ -10931,17 +10931,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Path of the Fighter",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Path of the Fighter",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Con Đường Fighter"
+        "sp": "",
+        "vi": "Con Đường Chiến Binh",
+        "zh": ""
       }
     },
     {
@@ -10949,17 +10949,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Your [img:int] becomes 0 until the end of the battle, then this spell becomes a random Fighter spell permanently.",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Your [img:int] becomes 0 until the end of the battle, then this spell becomes a random Fighter spell permanently.",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "[img:int] của bạn trở về 0 đến hết trận, sau đó phép này trở thành một phép Fighter ngẫu nhiên vĩnh viễn."
+        "sp": "",
+        "vi": "[img:int] của bạn trở về 0 đến hết trận, sau đó phép này trở thành một phép Chiến Binh ngẫu nhiên vĩnh viễn.",
+        "zh": ""
       }
     },
     {
@@ -10967,17 +10967,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Transform this spell into a random upgraded Fighter spell permanently.",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Transform this spell into a random upgraded Fighter spell permanently.",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Biến đổi phép này thành một phép Fighter nâng cấp ngẫu nhiên vĩnh viễn."
+        "sp": "",
+        "vi": "Biến đổi phép này thành một phép Chiến Binh nâng cấp ngẫu nhiên vĩnh viễn.",
+        "zh": ""
       }
     },
     {
@@ -10985,17 +10985,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Path of the Tank",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Path of the Tank",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Con Đường Tank"
+        "sp": "",
+        "vi": "Con Đường Chống Chịu",
+        "zh": ""
       }
     },
     {
@@ -11003,17 +11003,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Transform this spell into a random Tank spell permanently. Castable only if you have 5 or less health.",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Transform this spell into a random Tank spell permanently. Castable only if you have 5 or less health.",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Biến đổi phép này thành một phép Tank ngẫu nhiên vĩnh viễn. Chỉ dùng được nếu bạn còn 5 máu hoặc ít hơn."
+        "sp": "",
+        "vi": "Biến đổi phép này thành một phép Chống Chịu ngẫu nhiên vĩnh viễn. Chỉ dùng được nếu bạn còn 5 máu hoặc ít hơn.",
+        "zh": ""
       }
     },
     {
@@ -11021,17 +11021,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Transform this spell into a random upgraded Tank spell permanently.",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Transform this spell into a random upgraded Tank spell permanently.",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Biến đổi phép này thành một phép Tank nâng cấp ngẫu nhiên vĩnh viễn."
+        "sp": "",
+        "vi": "Biến đổi phép này thành một phép Chống Chịu nâng cấp ngẫu nhiên vĩnh viễn.",
+        "zh": ""
       }
     },
     {
@@ -11039,17 +11039,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Path of the Cleric",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Path of the Cleric",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Con Đường Cleric"
+        "sp": "",
+        "vi": "Con Đường Linh Mục",
+        "zh": ""
       }
     },
     {
@@ -11057,17 +11057,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Give an enemy All Stats Up and fully heal it, then this spell becomes a random Cleric spell permanently.",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Give an enemy All Stats Up and fully heal it, then this spell becomes a random Cleric spell permanently.",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Tăng Tất Cả Chỉ Số cho một kẻ thù và hồi đầy máu cho nó, sau đó phép này trở thành một phép Cleric ngẫu nhiên vĩnh viễn."
+        "sp": "",
+        "vi": "Tăng Tất Cả Chỉ Số cho một kẻ thù và hồi đầy máu cho nó, sau đó phép này trở thành một phép Linh Mục ngẫu nhiên vĩnh viễn.",
+        "zh": ""
       }
     },
     {
@@ -11075,17 +11075,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Transform this spell into a random upgraded Cleric spell permanently.",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Transform this spell into a random upgraded Cleric spell permanently.",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Biến đổi phép này thành một phép Cleric nâng cấp ngẫu nhiên vĩnh viễn."
+        "sp": "",
+        "vi": "Biến đổi phép này thành một phép Linh Mục nâng cấp ngẫu nhiên vĩnh viễn.",
+        "zh": ""
       }
     },
     {
@@ -11093,17 +11093,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Path of the Butcher",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Path of the Butcher",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Con Đường Butcher"
+        "sp": "",
+        "vi": "Con Đường Kẻ Buôn Thịt",
+        "zh": ""
       }
     },
     {
@@ -11111,17 +11111,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Collect an adjacent food pickup, then this spell becomes a random Butcher spell permanently.",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Collect an adjacent food pickup, then this spell becomes a random Butcher spell permanently.",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Thu thập một vật phẩm thức ăn bên cạnh, sau đó phép này trở thành một phép Butcher ngẫu nhiên vĩnh viễn."
+        "sp": "",
+        "vi": "Thu thập một vật phẩm thức ăn bên cạnh, sau đó phép này trở thành một phép Kẻ Buôn Thịt ngẫu nhiên vĩnh viễn.",
+        "zh": ""
       }
     },
     {
@@ -11129,17 +11129,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Transform this spell into a random upgraded Butcher spell permanently.",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Transform this spell into a random upgraded Butcher spell permanently.",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Biến đổi phép này thành một phép Butcher nâng cấp ngẫu nhiên vĩnh viễn."
+        "sp": "",
+        "vi": "Biến đổi phép này thành một phép Kẻ Buôn Thịt nâng cấp ngẫu nhiên vĩnh viễn.",
+        "zh": ""
       }
     },
     {
@@ -11147,17 +11147,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Path of the Psychic",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Path of the Psychic",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Con Đường Psychic"
+        "sp": "",
+        "vi": "Con Đường Nhà Ngoại Cảm",
+        "zh": ""
       }
     },
     {
@@ -11165,17 +11165,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "This spell becomes a random Psychic spell permanently. Castable only if you have full mana.",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "This spell becomes a random Psychic spell permanently. Castable only if you have full mana.",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Phép này trở thành một phép Psychic ngẫu nhiên vĩnh viễn. Chỉ dùng được nếu bạn đầy mana."
+        "sp": "",
+        "vi": "Phép này trở thành một phép Nhà Ngoại Cảm ngẫu nhiên vĩnh viễn. Chỉ dùng được nếu bạn đầy mana.",
+        "zh": ""
       }
     },
     {
@@ -11183,17 +11183,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Transform this spell into a random upgraded Psychic spell permanently.",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Transform this spell into a random upgraded Psychic spell permanently.",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Biến đổi phép này thành một phép Psychic nâng cấp ngẫu nhiên vĩnh viễn."
+        "sp": "",
+        "vi": "Biến đổi phép này thành một phép Nhà Ngoại Cảm nâng cấp ngẫu nhiên vĩnh viễn.",
+        "zh": ""
       }
     },
     {
@@ -11201,17 +11201,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Path of the Tinkerer",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Path of the Tinkerer",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Con Đường Tinkerer"
+        "sp": "",
+        "vi": "Con Đường Kỹ Sư Tò Mò",
+        "zh": ""
       }
     },
     {
@@ -11219,17 +11219,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Destroy your weapon, then this spell becomes a random Tinkerer spell permanently.",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Destroy your weapon, then this spell becomes a random Tinkerer spell permanently.",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Phá hủy vũ khí của bạn, sau đó phép này trở thành một phép Tinkerer ngẫu nhiên vĩnh viễn."
+        "sp": "",
+        "vi": "Phá hủy vũ khí của bạn, sau đó phép này trở thành một phép Kỹ Sư Tò Mò ngẫu nhiên vĩnh viễn.",
+        "zh": ""
       }
     },
     {
@@ -11237,17 +11237,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Transform this spell into a random upgraded Tinkerer spell permanently.",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Transform this spell into a random upgraded Tinkerer spell permanently.",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Biến đổi phép này thành một phép Tinkerer nâng cấp ngẫu nhiên vĩnh viễn."
+        "sp": "",
+        "vi": "Biến đổi phép này thành một phép Kỹ Sư Tò Mò nâng cấp ngẫu nhiên vĩnh viễn.",
+        "zh": ""
       }
     },
     {
@@ -11255,17 +11255,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Path of the Monk",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Path of the Monk",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Con Đường Monk"
+        "sp": "",
+        "vi": "Con Đường Nhà Sư",
+        "zh": ""
       }
     },
     {
@@ -11273,17 +11273,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Gain All Stats Down, then this spell becomes a random Monk spell permanently.",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Gain All Stats Down, then this spell becomes a random Monk spell permanently.",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Nhận Giảm Tất Cả Chỉ Số, sau đó phép này trở thành một phép Monk ngẫu nhiên vĩnh viễn."
+        "sp": "",
+        "vi": "Nhận Giảm Tất Cả Chỉ Số, sau đó phép này trở thành một phép Nhà Sư ngẫu nhiên vĩnh viễn.",
+        "zh": ""
       }
     },
     {
@@ -11291,17 +11291,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "This spell becomes a random upgraded Monk spell permanently.",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "This spell becomes a random upgraded Monk spell permanently.",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Phép này trở thành một phép Monk nâng cấp ngẫu nhiên vĩnh viễn."
+        "sp": "",
+        "vi": "Phép này trở thành một phép Nhà Sư nâng cấp ngẫu nhiên vĩnh viễn.",
+        "zh": ""
       }
     },
     {
@@ -11309,17 +11309,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Path of the Druid",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Path of the Druid",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Con Đường Druid"
+        "sp": "",
+        "vi": "Con Đường Thần Rừng",
+        "zh": ""
       }
     },
     {
@@ -11327,17 +11327,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Plant flowers on the tile you're standing on, then this spell becomes a random Druid spell permanently. Castable only if you're standing on a grass tile.",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Plant flowers on the tile you're standing on, then this spell becomes a random Druid spell permanently. Castable only if you're standing on a grass tile.",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Trồng hoa trên ô bạn đang đứng, sau đó phép này trở thành một phép Druid ngẫu nhiên vĩnh viễn. Chỉ dùng được nếu bạn đang đứng trên ô cỏ."
+        "sp": "",
+        "vi": "Trồng hoa trên ô bạn đang đứng, sau đó phép này trở thành một phép Thần Rừng ngẫu nhiên vĩnh viễn. Chỉ dùng được nếu bạn đang đứng trên ô cỏ.",
+        "zh": ""
       }
     },
     {
@@ -11345,17 +11345,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Transform this spell into a random upgraded Druid spell permanently.",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Transform this spell into a random upgraded Druid spell permanently.",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Biến đổi phép này thành một phép Druid nâng cấp ngẫu nhiên vĩnh viễn."
+        "sp": "",
+        "vi": "Biến đổi phép này thành một phép Thàn Rừng nâng cấp ngẫu nhiên vĩnh viễn.",
+        "zh": ""
       }
     },
     {
@@ -11363,17 +11363,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Path of the Necromancer",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Path of the Necromancer",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Con Đường Necromancer"
+        "sp": "",
+        "vi": "Con Đường Pháp Sư Gọi Hồn",
+        "zh": ""
       }
     },
     {
@@ -11381,17 +11381,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Destroy a corpse, then this spell becomes a random Necromancer spell permanently.",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Destroy a corpse, then this spell becomes a random Necromancer spell permanently.",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Phá hủy một xác chết, sau đó phép này trở thành một phép Necromancer ngẫu nhiên vĩnh viễn."
+        "sp": "",
+        "vi": "Phá hủy một xác chết, sau đó phép này trở thành một phép Pháp Sư Gọi Hồn ngẫu nhiên vĩnh viễn.",
+        "zh": ""
       }
     },
     {
@@ -11399,17 +11399,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Transform this spell into a random Necromancer spell permanently.",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Transform this spell into a random Necromancer spell permanently.",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Biến đổi phép này thành một phép Necromancer ngẫu nhiên vĩnh viễn."
+        "sp": "",
+        "vi": "Biến đổi phép này thành một phép Pháp Sư Gọi Hồn ngẫu nhiên vĩnh viễn.",
+        "zh": ""
       }
     },
     {
@@ -11435,17 +11435,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Conjure a random Collarless spell into your bonus spell slot.",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Conjure a random Collarless spell into your bonus spell slot.",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Tạo ra một phép Collarless ngẫu nhiên vào khe phép phụ của bạn."
+        "sp": "",
+        "vi": "Tạo ra một phép Không Có Vòng Cổ ngẫu nhiên vào vị trí phép bổ trợ của bạn.",
+        "zh": ""
       }
     },
     {
@@ -11453,17 +11453,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Conjure a random upgraded Collarless spell into your bonus spell slot.",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Conjure a random upgraded Collarless spell into your bonus spell slot.",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Tạo ra một phép Collarless nâng cấp ngẫu nhiên vào khe phép phụ của bạn."
+        "sp": "",
+        "vi": "Tạo ra một phép Không Có Vòng Cổ nâng cấp ngẫu nhiên vào vị trí phép bổ trợ của bạn.",
+        "zh": ""
       }
     },
     {
@@ -11471,17 +11471,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Path of the Jester",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Path of the Jester",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Con Đường Jester"
+        "sp": "",
+        "vi": "Con Đường Chú Hề",
+        "zh": ""
       }
     },
     {
@@ -11489,17 +11489,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Gain 10 random stat ups and 5 random stat downs, then transform this spell into a random class spell permanently.",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Gain 10 random stat ups and 5 random stat downs, then transform this spell into a random class spell permanently.",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Nhận 10 lần tăng chỉ số ngẫu nhiên và 5 lần giảm chỉ số ngẫu nhiên, sau đó biến đổi phép này thành một phép class ngẫu nhiên vĩnh viễn."
+        "sp": "",
+        "vi": "Nhận 10 lần tăng chỉ số ngẫu nhiên và 5 lần giảm chỉ số ngẫu nhiên, sau đó biến đổi phép này thành một phép của lớp nhân vật ngẫu nhiên vĩnh viễn.",
+        "zh": ""
       }
     },
     {
@@ -11507,17 +11507,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Gain 10 random stat ups, then transform this spell into a random upgraded class spell permanently.",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Gain 10 random stat ups, then transform this spell into a random upgraded class spell permanently.",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Nhận 10 lần tăng chỉ số ngẫu nhiên, sau đó biến đổi phép này thành một phép class nâng cấp ngẫu nhiên vĩnh viễn."
+        "sp": "",
+        "vi": "Nhận 10 lần tăng chỉ số ngẫu nhiên, sau đó biến đổi phép này thành một phép của một lớp nhân vật nâng cấp ngẫu nhiên vĩnh viễn.",
+        "zh": ""
       }
     },
     {
@@ -11525,17 +11525,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Itch",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Itch",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Ngứa"
+        "sp": "",
+        "vi": "Ngứa Ngáy",
+        "zh": ""
       }
     },
     {
@@ -11543,17 +11543,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Deal 1 damage to yourself. 50% chance to spawn a friendly flea.",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Deal 1 damage to yourself. 50% chance to spawn a friendly flea.",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Gây 1 sát thương lên bản thân. 50% cơ hội triệu hồi một con bọ chét đồng minh."
+        "sp": "",
+        "vi": "Gây 1 sát thương lên bản thân. 50% cơ hội triệu hồi một con bọ chét đồng minh.",
+        "zh": ""
       }
     },
     {
@@ -11561,17 +11561,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Deal 1 damage to yourself. Spawn a friendly flea.",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Deal 1 damage to yourself. Spawn a friendly flea.",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Gây 1 sát thương lên bản thân. Triệu hồi một con bọ chét đồng minh."
+        "sp": "",
+        "vi": "Gây 1 sát thương lên bản thân. Triệu hồi một con bọ chét đồng minh.",
+        "zh": ""
       }
     },
     {
@@ -11633,17 +11633,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Swat",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Swat",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Tát"
+        "sp": "",
+        "vi": "Tát Mạnh",
+        "zh": ""
       }
     },
     {
@@ -11741,17 +11741,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Purr",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Purr",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Gừ"
+        "sp": "",
+        "vi": "Grừ",
+        "zh": ""
       }
     },
     {
@@ -11759,17 +11759,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Remove 1 stack of a random debuff from yourself and all adjacent units.",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Remove 1 stack of a random debuff from yourself and all adjacent units.",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Xóa 1 tầng của một hiệu ứng bất lợi ngẫu nhiên khỏi bản thân và tất cả đơn vị bên cạnh."
+        "sp": "",
+        "vi": "Xóa 1 tầng của một hiệu ứng bất lợi ngẫu nhiên khỏi bản thân và tất cả đơn vị bên cạnh.",
+        "zh": ""
       }
     },
     {
@@ -11777,17 +11777,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Remove 1 stack of a random debuff from and heal 1 HP to yourself and all adjacent units.",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Remove 1 stack of a random debuff from and heal 1 HP to yourself and all adjacent units.",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Xóa 1 tầng của một hiệu ứng bất lợi ngẫu nhiên và hồi 1 máu cho bản thân cùng tất cả đơn vị bên cạnh."
+        "sp": "",
+        "vi": "Xóa 1 tầng của một hiệu ứng bất lợi ngẫu nhiên và hồi 1 máu cho bản thân cùng tất cả đơn vị bên cạnh.",
+        "zh": ""
       }
     },
     {
@@ -11795,17 +11795,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Hiss",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Hiss",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Khò"
+        "sp": "",
+        "vi": "Quát Mắng",
+        "zh": ""
       }
     },
     {
@@ -12173,17 +12173,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Super Crate Box",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Super Crate Box",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Hộp Thùng Siêu Cấp"
+        "sp": "",
+        "vi": "Thùng Siêu Cấp",
+        "zh": ""
       }
     },
     {
@@ -12443,17 +12443,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Landscape",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Landscape",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Cảnh Quan"
+        "sp": "",
+        "vi": "Làm Vườn",
+        "zh": ""
       }
     },
     {
@@ -12605,17 +12605,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Cold Shoulder",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Cold Shoulder",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Lạnh Nhạt"
+        "sp": "",
+        "vi": "Lạnh Lùng",
+        "zh": ""
       }
     },
     {
@@ -12713,17 +12713,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Forbidden Fart",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Forbidden Fart",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Cú Rắm Cấm Kỵ"
+        "sp": "",
+        "vi": "Cú Rắm Cấm Kỵ",
+        "zh": ""
       }
     },
     {
@@ -12839,17 +12839,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Healing Word",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Healing Word",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Lời Hồi Phục"
+        "sp": "",
+        "vi": "Lời Chữa Lành",
+        "zh": ""
       }
     },
     {
@@ -12893,17 +12893,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Cure Wounds",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Cure Wounds",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Chữa Trị Vết Thương"
+        "sp": "",
+        "vi": "Chữa Lành Vết Thương",
+        "zh": ""
       }
     },
     {
@@ -13109,17 +13109,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Convert",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Convert",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Cải Đạo"
+        "sp": "",
+        "vi": "Cảm Hoá",
+        "zh": ""
       }
     },
     {
@@ -13217,17 +13217,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Purge",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Purge",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Thanh Trừng"
+        "sp": "",
+        "vi": "Thanh Lọc",
+        "zh": ""
       }
     },
     {
@@ -13379,17 +13379,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Haste",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Haste",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Tăng Tốc"
+        "sp": "",
+        "vi": "Vội Vã",
+        "zh": ""
       }
     },
     {
@@ -13487,17 +13487,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Buddy Up",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Buddy Up",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Cặp Đôi"
+        "sp": "",
+        "vi": "Ghép Cặp",
+        "zh": ""
       }
     },
     {
@@ -13541,17 +13541,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Healing Fall",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Healing Fall",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Cú Đáp Hồi Phục"
+        "sp": "",
+        "vi": "Cú Đáp Chữa Lành",
+        "zh": ""
       }
     },
     {
@@ -13595,17 +13595,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Holy Dash",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Holy Dash",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Lướt Thánh"
+        "sp": "",
+        "vi": "Cú Lướt Thần Thánh",
+        "zh": ""
       }
     },
     {
@@ -13811,17 +13811,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Witch Hunt",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Witch Hunt",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Săn Phù Thủy"
+        "sp": "",
+        "vi": "Truy Lùng Phù Thủy",
+        "zh": ""
       }
     },
     {
@@ -13973,17 +13973,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Holy Light",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Holy Light",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Ánh Sáng Thánh"
+        "sp": "",
+        "vi": "Ánh Sáng Thiêng Liêng",
+        "zh": ""
       }
     },
     {
@@ -14027,17 +14027,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Ethereal",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Ethereal",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Hư Ảo"
+        "sp": "",
+        "vi": "Siêu Thực",
+        "zh": ""
       }
     },
     {
@@ -14045,17 +14045,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Gain 4 [img:divineshield], 3 [img:shield], heal 2 HP, and Brace 1.",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Gain 4 [img:divineshield], 3 [img:shield], heal 2 HP, and Brace 1.",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Nhận 4 [img:divineshield], 3 [img:shield], hồi 2 máu, và Phòng thủ 1."
+        "sp": "",
+        "vi": "Nhận 4 [img:divineshield], 3 [img:shield], hồi 2 máu, và Vững Chãi 1.",
+        "zh": ""
       }
     },
     {
@@ -14063,17 +14063,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Gain Thorns 6, Reflect 5, 4 [img:divineshield],\n3 [img:shield], heal 2 HP and Brace 1.",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Gain Thorns 6, Reflect 5, 4 [img:divineshield],\n3 [img:shield], heal 2 HP and Brace 1.",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Nhận Gai 6, Phản đòn 5, 4 [img:divineshield],\n3 [img:shield], hồi 2 máu và Phòng thủ 1."
+        "sp": "",
+        "vi": "Nhận Gai Góc 6, Phản đòn 5, 4 [img:divineshield],\n3 [img:shield], hồi 2 máu và Vững Chãi 1.",
+        "zh": ""
       }
     },
     {
@@ -14351,17 +14351,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Anoint",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Anoint",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Xức Dầu Thánh"
+        "sp": "",
+        "vi": "Thoa Dầu Thánh",
+        "zh": ""
       }
     },
     {
@@ -14423,17 +14423,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "A melee attack that inflicts Blind 5 and Bleed 1.",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "A melee attack that inflicts Blind 5 and Bleed 1.",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Đòn cận chiến gây Mù 5 và Chảy máu 1."
+        "sp": "",
+        "vi": "Đòn cận chiến gây Mù 5 và Chảy Máu 1.",
+        "zh": ""
       }
     },
     {
@@ -14441,17 +14441,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "A melee attack that inflicts Blind 5, Bleed 1, and Madness 1.",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "A melee attack that inflicts Blind 5, Bleed 1, and Madness 1.",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Đòn cận chiến gây Mù 5, Chảy máu 1, và Điên loạn 1."
+        "sp": "",
+        "vi": "Đòn cận chiến gây Mù 5, Chảy Máu 1, và Điên Loạn 1.",
+        "zh": ""
       }
     },
     {
@@ -14531,17 +14531,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Heal a unit and remove its debuffs. That unit gets +1 to a random stat and becomes the Alpha.\nIf there is an Alpha, this spell has infinite range and must target it.",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Heal a unit and remove its debuffs. That unit gets +1 to a random stat and becomes the Alpha.\nIf there is an Alpha, this spell has infinite range and must target it.",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Hồi máu và xóa hiệu ứng bất lợi cho một đơn vị. Đơn vị đó nhận +1 chỉ số ngẫu nhiên và trở thành Alpha.\nNếu đã có Alpha, phép này có tầm vô hạn và bắt buộc nhắm vào nó."
+        "sp": "",
+        "vi": "Hồi máu và xóa hiệu ứng bất lợi cho một đơn vị. Đơn vị đó nhận +1 chỉ số ngẫu nhiên và trở thành Alpha.\nNếu tồn tại một Alpha, phép này có tầm vô hạn và bắt buộc nhắm vào nó.",
+        "zh": ""
       }
     },
     {
@@ -14549,17 +14549,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Heal or revive a unit and remove its debuffs. That unit gets +1 to 3 random stats and becomes the Alpha.\nIf there is an Alpha, this spell has infinite range and must target it.",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Heal or revive a unit and remove its debuffs. That unit gets +1 to 3 random stats and becomes the Alpha.\nIf there is an Alpha, this spell has infinite range and must target it.",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Hồi máu hoặc hồi sinh và xóa hiệu ứng bất lợi cho một đơn vị. Đơn vị đó nhận +1 vào 3 chỉ số ngẫu nhiên và trở thành Alpha.\nNếu đã có Alpha, phép này có tầm vô hạn và bắt buộc nhắm vào nó."
+        "sp": "",
+        "vi": "Hồi máu hoặc hồi sinh và xóa hiệu ứng bất lợi cho một đơn vị. Đơn vị đó nhận +1 vào 3 chỉ số ngẫu nhiên và trở thành Alpha.\nNếu tồn tại một Alpha, phép này có tầm vô hạn và bắt buộc nhắm vào nó.",
+        "zh": ""
       }
     },
     {
@@ -14567,17 +14567,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Divine Protection",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Divine Protection",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Bảo Hộ Thần Thánh"
+        "sp": "",
+        "vi": "Thần Linh Bảo Hộ",
+        "zh": ""
       }
     },
     {
@@ -14585,17 +14585,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Give a unit +1 [img:divineshield] and +1 Kinetic Spikes. That unit becomes the Alpha.\nIf there is an Alpha, this spell costs less and must target it.",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Give a unit +1 [img:divineshield] and +1 Kinetic Spikes. That unit becomes the Alpha.\nIf there is an Alpha, this spell costs less and must target it.",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Ban cho một đơn vị +1 [img:divineshield] và +1 Gai Động Năng. Đơn vị đó trở thành Alpha.\nNếu đã có Alpha, phép này tốn ít mana hơn và bắt buộc nhắm vào nó."
+        "sp": "",
+        "vi": "Ban cho một đơn vị +1 [img:divineshield] và +1 Gai Động Năng. Đơn vị đó trở thành Alpha.\nNếu tồn tại một Alpha, phép này tốn ít mana hơn và bắt buộc nhắm vào nó.",
+        "zh": ""
       }
     },
     {
@@ -14603,17 +14603,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Give a unit anywhere +1 [img:divineshield] and +2 Kinetic Spikes. That unit becomes the Alpha.\nIf there is an Alpha, this spell costs less and must target it.",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Give a unit anywhere +1 [img:divineshield] and +2 Kinetic Spikes. That unit becomes the Alpha.\nIf there is an Alpha, this spell costs less and must target it.",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Ban cho một đơn vị ở bất cứ đâu +1 [img:divineshield] và +2 Gai Động Năng. Đơn vị đó trở thành Alpha.\nNếu đã có Alpha, phép này tốn ít mana hơn và bắt buộc nhắm vào nó."
+        "sp": "",
+        "vi": "Ban cho một đơn vị ở bất cứ đâu +1 [img:divineshield] và +2 Gai Động Năng. Đơn vị đó trở thành Alpha.\nNếu tồn tại một Alpha, phép này tốn ít mana hơn và bắt buộc nhắm vào nó.",
+        "zh": ""
       }
     },
     {
@@ -14639,17 +14639,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Give a unit +1 Damage. That unit becomes the Alpha.\nIf there is an Alpha, this spell must target it and it gives +1 bonus attack.",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Give a unit +1 Damage. That unit becomes the Alpha.\nIf there is an Alpha, this spell must target it and it gives +1 bonus attack.",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Ban cho một đơn vị +1 Sát thương. Đơn vị đó trở thành Alpha.\nNếu đã có Alpha, phép này bắt buộc nhắm vào nó và ban +1 đòn tấn công thêm."
+        "sp": "",
+        "vi": "Ban cho một đơn vị +1 Sát thương. Đơn vị đó trở thành Alpha.\nNếu tồn tại một Alpha, phép này bắt buộc nhắm vào nó và ban +1 đòn tấn công thêm.",
+        "zh": ""
       }
     },
     {
@@ -14657,17 +14657,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Give a unit +1 Damage and +1 Magic Damage. That unit becomes the Alpha.\nIf there is an Alpha, this spell must target it and it gives +1 bonus attack.\n[s:.7](This spell costs less.)[/s]",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Give a unit +1 Damage and +1 Magic Damage. That unit becomes the Alpha.\nIf there is an Alpha, this spell must target it and it gives +1 bonus attack.\n[s:.7](This spell costs less.)[/s]",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Ban cho một đơn vị +1 Sát thương và +1 Sát thương Phép. Đơn vị đó trở thành Alpha.\nNếu đã có Alpha, phép này bắt buộc nhắm vào nó và ban +1 đòn tấn công thêm.\n[s:.7](Phép này tốn ít mana hơn.)[/s]"
+        "sp": "",
+        "vi": "Ban cho một đơn vị +1 Sát thương và +1 Sát thương Phép. Đơn vị đó trở thành Alpha.\nNếu tồn tại mộtKinetic Spikes Alpha, phép này bắt buộc nhắm vào nó và ban +1 đòn tấn công thêm.\n[s:.7](Phép này tốn ít mana hơn.)[/s]",
+        "zh": ""
       }
     },
     {
@@ -14675,17 +14675,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Swift Servant",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Swift Servant",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Tôi Tớ Nhanh Nhẹn"
+        "sp": "",
+        "vi": "Bề Tôi Nhanh Nhẹn",
+        "zh": ""
       }
     },
     {
@@ -14693,17 +14693,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Give a unit +1 Bonus Move. That unit becomes the Alpha.\nIf there is an Alpha, this spell must target it and it gives you +1 Bonus Move too.",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Give a unit +1 Bonus Move. That unit becomes the Alpha.\nIf there is an Alpha, this spell must target it and it gives you +1 Bonus Move too.",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Ban cho một đơn vị +1 Di chuyển thêm. Đơn vị đó trở thành Alpha.\nNếu đã có Alpha, phép này bắt buộc nhắm vào nó và ban cho bạn +1 Di chuyển thêm."
+        "sp": "",
+        "vi": "Ban cho một đơn vị +1 Di chuyển thêm. Đơn vị đó trở thành Alpha.\nNếu tồn tại một Alpha, phép này bắt buộc nhắm vào nó và ban cho bạn +1 Di chuyển thêm.",
+        "zh": ""
       }
     },
     {
@@ -14711,17 +14711,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Give a unit +1 Bonus Move. That unit becomes the Alpha.\nIf there is an Alpha, this spell has infinite range, costs less and must target it, and it gives you +1 Bonus Move too.",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Give a unit +1 Bonus Move. That unit becomes the Alpha.\nIf there is an Alpha, this spell has infinite range, costs less and must target it, and it gives you +1 Bonus Move too.",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Ban cho một đơn vị +1 Di chuyển thêm. Đơn vị đó trở thành Alpha.\nNếu đã có Alpha, phép này có tầm vô hạn, tốn ít mana hơn, bắt buộc nhắm vào nó, và ban cho bạn +1 Di chuyển thêm."
+        "sp": "",
+        "vi": "Ban cho một đơn vị +1 Di chuyển thêm. Đơn vị đó trở thành Alpha.\nNếu tồn tại một Alpha, phép này có tầm vô hạn, tốn ít mana hơn, bắt buộc nhắm vào nó, và ban cho bạn +1 Di chuyển thêm.",
+        "zh": ""
       }
     },
     {
@@ -14729,17 +14729,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Divine Gift",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Divine Gift",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Món Quà Thần Thánh"
+        "sp": "",
+        "vi": "Thần Linh Ban Phước",
+        "zh": ""
       }
     },
     {
@@ -14747,17 +14747,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Gain All Stats Up. This spell costs 1 mana less for each HP you healed other units this turn.\n[s:.7](Castable once per turn.)[/s]",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Gain All Stats Up. This spell costs 1 mana less for each HP you healed other units this turn.\n[s:.7](Castable once per turn.)[/s]",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Tăng Mọi Chỉ Số. Phép này giảm 1 mana cho mỗi HP bạn đã hồi cho đơn vị khác trong lượt này.\n[s:.7](Chỉ dùng được một lần mỗi lượt.)[/s]"
+        "sp": "",
+        "vi": "Tăng Mọi Chỉ Số. Phép này giảm 1 mana cho mỗi Máu bạn đã hồi cho đơn vị khác trong lượt này.\n[s:.7](Chỉ dùng được một lần mỗi lượt.)[/s]",
+        "zh": ""
       }
     },
     {
@@ -14765,17 +14765,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Gain All Stats Up and +1 [img:divineshield]. This spell costs 1 mana less for each HP you healed other units this turn.\n[s:.7](Castable once per turn.)[/s]",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Gain All Stats Up and +1 [img:divineshield]. This spell costs 1 mana less for each HP you healed other units this turn.\n[s:.7](Castable once per turn.)[/s]",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Tăng Mọi Chỉ Số và +1 [img:divineshield]. Phép này giảm 1 mana cho mỗi HP bạn đã hồi cho đơn vị khác trong lượt này.\n[s:.7](Chỉ dùng được một lần mỗi lượt.)[/s]"
+        "sp": "",
+        "vi": "Tăng Mọi Chỉ Số và +1 [img:divineshield]. Phép này giảm 1 mana cho mỗi Máu bạn đã hồi cho đơn vị khác trong lượt này.\n[s:.7](Chỉ dùng được một lần mỗi lượt.)[/s]",
+        "zh": ""
       }
     },
     {
@@ -14783,17 +14783,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Holy Weapon",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Holy Weapon",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Vũ Khí Thánh"
+        "sp": "",
+        "vi": "Vũ Khí Của Chúa",
+        "zh": ""
       }
     },
     {
@@ -14801,17 +14801,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "A dash attack with range, damage, and knockback equal to the amount of HP you healed other units this turn.\n[s:.7](Castable once per turn.)[/s]",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "A dash attack with range, damage, and knockback equal to the amount of HP you healed other units this turn.\n[s:.7](Castable once per turn.)[/s]",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Đòn lướt có tầm, sát thương và lực đẩy lùi bằng với lượng HP bạn đã hồi cho đơn vị khác trong lượt này.\n[s:.7](Chỉ dùng được một lần mỗi lượt.)[/s]"
+        "sp": "",
+        "vi": "Đòn lướt có tầm, sát thương và lực đẩy lùi bằng với lượng Máu bạn đã hồi cho đơn vị khác trong lượt này.\n[s:.7](Chỉ dùng được một lần mỗi lượt.)[/s]",
+        "zh": ""
       }
     },
     {
@@ -14819,17 +14819,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "A dash attack with range, damage, and knockback equal to twice the amount of HP you healed other units this turn.\n[s:.7](Castable once per turn.)[/s]",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "A dash attack with range, damage, and knockback equal to twice the amount of HP you healed other units this turn.\n[s:.7](Castable once per turn.)[/s]",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Đòn lướt có tầm, sát thương và lực đẩy lùi bằng gấp đôi lượng HP bạn đã hồi cho đơn vị khác trong lượt này.\n[s:.7](Chỉ dùng được một lần mỗi lượt.)[/s]"
+        "sp": "",
+        "vi": "Đòn lướt có tầm, sát thương và lực đẩy lùi bằng gấp đôi lượng Máu bạn đã hồi cho đơn vị khác trong lượt này.\n[s:.7](Chỉ dùng được một lần mỗi lượt.)[/s]",
+        "zh": ""
       }
     },
     {
@@ -14855,17 +14855,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Swap positions with any unit. That unit becomes the Alpha.\nIf there is an Alpha, this spell must target it.",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Swap positions with any unit. That unit becomes the Alpha.\nIf there is an Alpha, this spell must target it.",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Hoán đổi vị trí với bất kỳ đơn vị nào. Đơn vị đó trở thành Alpha.\nNếu đã có Alpha, phép này bắt buộc nhắm vào nó."
+        "sp": "",
+        "vi": "Hoán đổi vị trí với bất kỳ đơn vị nào. Đơn vị đó trở thành Alpha.\nNếu tồn tại một Alpha, phép này bắt buộc nhắm vào nó.",
+        "zh": ""
       }
     },
     {
@@ -14873,17 +14873,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Swap positions with any unit and heal it by 1 HP. That unit becomes the Alpha.\nIf there is an Alpha, this spell must target it.",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Swap positions with any unit and heal it by 1 HP. That unit becomes the Alpha.\nIf there is an Alpha, this spell must target it.",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Hoán đổi vị trí với bất kỳ đơn vị nào và hồi cho nó 1 HP. Đơn vị đó trở thành Alpha.\nNếu đã có Alpha, phép này bắt buộc nhắm vào nó."
+        "sp": "",
+        "vi": "Hoán đổi vị trí với bất kỳ đơn vị nào và hồi cho nó 1 HP. Đơn vị đó trở thành Alpha.\nNếu tồn tại một Alpha, phép này bắt buộc nhắm vào nó.",
+        "zh": ""
       }
     },
     {
@@ -14927,17 +14927,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Revive a body to 1 HP.",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Revive a body to 1 HP.",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Hồi sinh một xác chết với 1 HP."
+        "sp": "",
+        "vi": "Hồi sinh một xác chết với 1 Máu.",
+        "zh": ""
       }
     },
     {
@@ -14945,17 +14945,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Revive a body to 1 HP. Give that unit +1 [img:divineshield] and All Stats Up.",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Revive a body to 1 HP. Give that unit +1 [img:divineshield] and All Stats Up.",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Hồi sinh một xác chết với 1 HP. Ban cho đơn vị đó +1 [img:divineshield] và Tăng Mọi Chỉ Số."
+        "sp": "",
+        "vi": "Hồi sinh một xác chết với 1 Máu. Ban cho đơn vị đó +1 [img:divineshield] và Tăng Mọi Chỉ Số.",
+        "zh": ""
       }
     },
     {
@@ -14963,17 +14963,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Fury Heal",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Fury Heal",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Hồi Máu Cuồng Nộ"
+        "sp": "",
+        "vi": "Hồi Máu Điên Cuồng",
+        "zh": ""
       }
     },
     {
@@ -15071,17 +15071,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Emergency",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Emergency",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Khẩn Cấp"
+        "sp": "",
+        "vi": "Cấp Cứu",
+        "zh": ""
       }
     },
     {
@@ -15143,17 +15143,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Make a unit The Alpha.\nBonus Passive: The Alpha has +50% dodge chance.",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Make a unit The Alpha.\nBonus Passive: The Alpha has +50% dodge chance.",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Biến một đơn vị thành Alpha.\nNội tại bổ trợ: Alpha có +50% cơ hội né đòn."
+        "sp": "",
+        "vi": "Biến một đơn vị thành Alpha.\nNội tại: Alpha có +50% cơ hội né đòn.",
+        "zh": ""
       }
     },
     {
@@ -15161,17 +15161,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Make a unit anywhere The Alpha.\n[s:.7](This spell costs less.)[/s]\nBonus Passive: The Alpha has +50% dodge chance.",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Make a unit anywhere The Alpha.\n[s:.7](This spell costs less.)[/s]\nBonus Passive: The Alpha has +50% dodge chance.",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Biến một đơn vị ở bất cứ đâu thành Alpha.\n[s:.7](Phép này tốn ít mana hơn.)[/s]\nNội tại bổ trợ: Alpha có +50% cơ hội né đòn."
+        "sp": "",
+        "vi": "Biến một đơn vị ở bất cứ đâu thành Alpha.\n[s:.7](Phép này tốn ít mana hơn.)[/s]\nNội tại: Alpha có +50% cơ hội né đòn.",
+        "zh": ""
       }
     },
     {
@@ -15377,17 +15377,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Give +1 [img:divineshield] and +1 Health Regeneration to each unit within 2 tiles of you.\n[s:.7](This spell costs less.)[/s]",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Give +1 [img:divineshield] and +1 Health Regeneration to each unit within 2 tiles of you.\n[s:.7](This spell costs less.)[/s]",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Ban +1 [img:divineshield] và +1 Hồi Máu cho mỗi đơn vị trong phạm vi 2 ô quanh bạn.\n[s:.7](Phép này tốn ít mana hơn.)[/s]"
+        "sp": "",
+        "vi": "Ban +1 [img:divineshield] và +1 Hồi Máu Cơ Bản cho mỗi đơn vị trong phạm vi 2 ô quanh bạn.\n[s:.7](Phép này tốn ít mana hơn.)[/s]",
+        "zh": ""
       }
     },
     {
@@ -15539,17 +15539,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Force a nearby unit to move away from you. If it was an enemy, inflict Madness 1 and Confusion 1.",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Force a nearby unit to move away from you. If it was an enemy, inflict Madness 1 and Confusion 1.",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Ép một đơn vị gần đó di chuyển ra xa bạn. Nếu là kẻ thù, gây Điên loạn 1 và Hỗn loạn 1."
+        "sp": "",
+        "vi": "Ép một đơn vị gần đó di chuyển ra xa bạn. Nếu là kẻ thù, gây Điên loạn 1 và Lú Lẫn 1.",
+        "zh": ""
       }
     },
     {
@@ -15863,17 +15863,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Stone Fists",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Stone Fists",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Nắm Đấm Đá"
+        "sp": "",
+        "vi": "Nắm Đấm Sắt Đá",
+        "zh": ""
       }
     },
     {
@@ -15971,17 +15971,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Hip Toss",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Hip Toss",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Quật Hông"
+        "sp": "",
+        "vi": "Lắc Hông",
+        "zh": ""
       }
     },
     {
@@ -16025,17 +16025,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Bruise",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Bruise",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Vết Bầm"
+        "sp": "",
+        "vi": "Bầm Tím",
+        "zh": ""
       }
     },
     {
@@ -16043,17 +16043,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Your basic attack inflicts Bruise until the end of the turn.\n[s:.7](Castable once per turn.)[/s]",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Your basic attack inflicts Bruise until the end of the turn.\n[s:.7](Castable once per turn.)[/s]",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Đòn tấn công cơ bản của bạn gây Bầm tím cho đến cuối lượt.\n[s:.7](Chỉ dùng được một lần mỗi lượt.)[/s]"
+        "sp": "",
+        "vi": "Đòn tấn công cơ bản của bạn gây Bầm Tím cho đến cuối lượt.\n[s:.7](Chỉ dùng được một lần mỗi lượt.)[/s]",
+        "zh": ""
       }
     },
     {
@@ -16061,17 +16061,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Your basic attack inflicts Bruise until the end of the turn.",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Your basic attack inflicts Bruise until the end of the turn.",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Đòn tấn công cơ bản của bạn gây Bầm tím cho đến cuối lượt."
+        "sp": "",
+        "vi": "Đòn tấn công cơ bản của bạn gây Bầm Tím cho đến cuối lượt.",
+        "zh": ""
       }
     },
     {
@@ -16241,17 +16241,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Combo Throw",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Combo Throw",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Chuỗi Ném"
+        "sp": "",
+        "vi": "Liên Hoàn Ném",
+        "zh": ""
       }
     },
     {
@@ -16259,17 +16259,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "A melee attack with Knockback 3. When this hits, switch into ranged stance and refresh your basic attack.",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "A melee attack with Knockback 3. When this hits, switch into ranged stance and refresh your basic attack.",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Đòn cận chiến với Đẩy lùi 3. Khi trúng đích, chuyển sang thế đánh xa và làm mới đòn tấn công cơ bản."
+        "sp": "",
+        "vi": "Đòn cận chiến với Đẩy lùi 3. Khi trúng đích, chuyển sang thế đánh xa và làm mới đòn tấn công cơ bản.",
+        "zh": ""
       }
     },
     {
@@ -16295,17 +16295,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Combo Pull",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Combo Pull",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Chuỗi Kéo"
+        "sp": "",
+        "vi": "Liên Hoàn Kéo",
+        "zh": ""
       }
     },
     {
@@ -16313,17 +16313,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "A ranged attack that pulls the unit it hits toward you. When this hits, switch into melee stance and refresh your basic attack.",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "A ranged attack that pulls the unit it hits toward you. When this hits, switch into melee stance and refresh your basic attack.",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Đòn đánh xa kéo đơn vị trúng đòn về phía bạn. Khi trúng đích, chuyển sang thế cận chiến và làm mới đòn tấn công cơ bản."
+        "sp": "",
+        "vi": "Đòn đánh xa kéo đơn vị trúng đòn về phía bạn. Khi trúng đích, chuyển sang thế cận chiến và làm mới đòn tấn công cơ bản.",
+        "zh": ""
       }
     },
     {
@@ -16331,17 +16331,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "A ranged attack that pulls the unit it hits toward you. When this hits, switch into melee stance and refresh your basic attack.\n[s:.7](This spell costs less.)[/s]",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "A ranged attack that pulls the unit it hits toward you. When this hits, switch into melee stance and refresh your basic attack.\n[s:.7](This spell costs less.)[/s]",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Đòn đánh xa kéo đơn vị trúng đòn về phía bạn. Khi trúng đích, chuyển sang thế cận chiến và làm mới đòn tấn công cơ bản.\n[s:.7](Phép này tốn ít mana hơn.)[/s]"
+        "sp": "",
+        "vi": "Đòn đánh xa kéo đơn vị trúng đòn về phía bạn. Khi trúng đích, chuyển sang thế cận chiến và làm mới đòn tấn công cơ bản.\n[s:.7](Phép này tốn ít mana hơn.)[/s]",
+        "zh": ""
       }
     },
     {
@@ -16349,17 +16349,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "One With the Wind",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "One With the Wind",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Hòa Mình Với Gió"
+        "sp": "",
+        "vi": "Cuốn Theo Chiều Gió",
+        "zh": ""
       }
     },
     {
@@ -16439,17 +16439,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Jump to a tile. Bounce off any unit you land on, damaging and Bruising that unit.",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Jump to a tile. Bounce off any unit you land on, damaging and Bruising that unit.",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Nhảy đến một ô. Nảy lên khỏi bất kỳ đơn vị nào bạn đáp xuống, gây sát thương và Bầm tím đơn vị đó."
+        "sp": "",
+        "vi": "Nhảy đến một ô. Nảy lên khỏi bất kỳ đơn vị nào bạn đáp xuống, gây sát thương và Bầm Tím đơn vị đó.",
+        "zh": ""
       }
     },
     {
@@ -16457,17 +16457,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Way of the Mantis",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Way of the Mantis",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Đạo Của Bọ Ngựa"
+        "sp": "",
+        "vi": "Đường Lang Quyền",
+        "zh": ""
       }
     },
     {
@@ -16529,17 +16529,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Gain +2 temporary Brace and +2 temporary Thorns until your next turn.",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Gain +2 temporary Brace and +2 temporary Thorns until your next turn.",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Nhận +2 Phòng thủ tạm thời và +2 Gai tạm thời cho đến lượt tiếp theo."
+        "sp": "",
+        "vi": "Nhận +2 Vững Chãi tạm thời và +2 Gai Góc tạm thời cho đến lượt tiếp theo.",
+        "zh": ""
       }
     },
     {
@@ -16547,17 +16547,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Gain +2 temporary Brace and +2 temporary Thorns until your next turn. Also reflect the next projectile you're hit by.",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Gain +2 temporary Brace and +2 temporary Thorns until your next turn. Also reflect the next projectile you're hit by.",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Nhận +2 Phòng thủ tạm thời và +2 Gai tạm thời cho đến lượt tiếp theo. Đồng thời phản lại đòn đạn đạo tiếp theo trúng phải bạn."
+        "sp": "",
+        "vi": "Nhận +2 Vững Chãi tạm thời và +2 Gai Góc tạm thời cho đến lượt tiếp theo. Đồng thời phản lại đòn đạn đạo tiếp theo trúng phải bạn.",
+        "zh": ""
       }
     },
     {
@@ -16619,17 +16619,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Deep Dive",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Deep Dive",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Lặn Sâu"
+        "sp": "",
+        "vi": "Thâm Uyên Thoát Xác",
+        "zh": ""
       }
     },
     {
@@ -16673,17 +16673,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Hop n' Block",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Hop n' Block",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Nhảy và Chặn"
+        "sp": "",
+        "vi": "Vi Bộ Ngự Thể",
+        "zh": ""
       }
     },
     {
@@ -16727,17 +16727,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Way of the Owl",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Way of the Owl",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Đạo Của Cú"
+        "sp": "",
+        "vi": "Minh Kiêu Tâm Pháp",
+        "zh": ""
       }
     },
     {
@@ -16835,17 +16835,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Five Point Palm Exploding Heart Technique",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Five Point Palm Exploding Heart Technique",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Ngũ Chỉ Phá Tâm Thủ"
+        "sp": "",
+        "vi": "Ngũ Điểm Phá Tâm Chưởng",
+        "zh": ""
       }
     },
     {
@@ -16943,17 +16943,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Air Burst",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Air Burst",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Bùng Nổ Khí"
+        "sp": "",
+        "vi": "Không Tiễn Kích",
+        "zh": ""
       }
     },
     {
@@ -16997,17 +16997,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Way of the Turtle",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Way of the Turtle",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Đạo Của Rùa"
+        "sp": "",
+        "vi": "Quy Thiết Công",
+        "zh": ""
       }
     },
     {
@@ -17015,17 +17015,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Gain +1 Brace.",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Gain +1 Brace.",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Nhận +1 Phòng thủ."
+        "sp": "",
+        "vi": "Nhận +1 Vững Chãi.",
+        "zh": ""
       }
     },
     {
@@ -17033,17 +17033,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Gain +1 Brace.\n[s:.7](This spell costs less.)[/s]",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Gain +1 Brace.\n[s:.7](This spell costs less.)[/s]",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Nhận +1 Phòng thủ.\n[s:.7](Phép này tốn ít mana hơn.)[/s]"
+        "sp": "",
+        "vi": "Nhận +1 Vững Chãi.\n[s:.7](Phép này tốn ít mana hơn.)[/s]",
+        "zh": ""
       }
     },
     {
@@ -17051,17 +17051,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Release Energy",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Release Energy",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Giải Phóng Năng Lượng"
+        "sp": "",
+        "vi": "Vận Công Phát Kình",
+        "zh": ""
       }
     },
     {
@@ -17105,17 +17105,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Pummel",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Pummel",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Đấm Túi Bụi"
+        "sp": "",
+        "vi": "Loạn Đả",
+        "zh": ""
       }
     },
     {
@@ -17159,17 +17159,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Quick Attack",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Quick Attack",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Tấn Công Nhanh"
+        "sp": "",
+        "vi": "Tốc Kích",
+        "zh": ""
       }
     },
     {
@@ -17213,17 +17213,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Perfect Form",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Perfect Form",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Hình Thái Hoàn Hảo"
+        "sp": "",
+        "vi": "Vô Khuyết Cảnh Giới",
+        "zh": ""
       }
     },
     {
@@ -17249,17 +17249,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Gain +1 [img:shield] and heal 1 HP for each empty armor slot you have, then switch stances.",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Gain +1 [img:shield] and heal 1 HP for each empty armor slot you have, then switch stances.",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Nhận +1 [img:shield] và hồi 1 HP cho mỗi ô giáp trống bạn có, sau đó đổi thế."
+        "sp": "",
+        "vi": "Nhận +1 [img:shield] và hồi 1 Máu cho mỗi ô giáp trống bạn có, sau đó đổi thế.",
+        "zh": ""
       }
     },
     {
@@ -17267,17 +17267,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Warm Up Stretch",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Warm Up Stretch",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Khởi Động Giãn Cơ"
+        "sp": "",
+        "vi": "Dịch Cân Kinh Khởi Thức",
+        "zh": ""
       }
     },
     {
@@ -17321,17 +17321,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Flying Fist",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Flying Fist",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Nắm Đấm Bay"
+        "sp": "",
+        "vi": "Phi Không Quyền",
+        "zh": ""
       }
     },
     {
@@ -17375,17 +17375,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Hundred Hand Slap",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Hundred Hand Slap",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Trăm Tay Vả"
+        "sp": "",
+        "vi": "Bách Thủ Liệt Chưởng",
+        "zh": ""
       }
     },
     {
@@ -395062,7 +395062,7 @@
         "pt-br": "",
         "ru": "",
         "sp": "",
-        "vi": "Vững chãi",
+        "vi": "Vững Chãi",
         "zh": ""
       }
     },
@@ -395080,7 +395080,7 @@
         "pt-br": "",
         "ru": "",
         "sp": "",
-        "vi": "Gai góc",
+        "vi": "Gai Góc",
         "zh": ""
       }
     },
@@ -395135,6 +395135,78 @@
         "ru": "",
         "sp": "",
         "vi": "Vươn mình",
+        "zh": ""
+      }
+    },
+    {
+      "id": "ABILITY_METABOLIZE",
+      "category": "abilities",
+      "notes": "",
+      "langs": {
+        "de": "",
+        "en": "Metabolize",
+        "fr": "",
+        "it": "",
+        "ja": "",
+        "ko": "",
+        "pt-br": "",
+        "ru": "",
+        "sp": "",
+        "vi": "Chuyển hoá năng lượng",
+        "zh": ""
+      }
+    },
+    {
+      "id": "ABILITY_HEALTH_REGEN",
+      "category": "abilities",
+      "notes": "",
+      "langs": {
+        "de": "",
+        "en": "Health Regeneration",
+        "fr": "",
+        "it": "",
+        "ja": "",
+        "ko": "",
+        "pt-br": "",
+        "ru": "",
+        "sp": "",
+        "vi": "Hồi Máu Cơ Bản",
+        "zh": ""
+      }
+    },
+    {
+      "id": "ABILITY_DOWN",
+      "category": "abilities",
+      "notes": "",
+      "langs": {
+        "de": "",
+        "en": "Down",
+        "fr": "",
+        "it": "",
+        "ja": "",
+        "ko": "",
+        "pt-br": "",
+        "ru": "",
+        "sp": "",
+        "vi": "Gục Ngã",
+        "zh": ""
+      }
+    },
+    {
+      "id": "ABILITY_CONFUSE",
+      "category": "abilities",
+      "notes": "",
+      "langs": {
+        "de": "",
+        "en": "Confuse",
+        "fr": "",
+        "it": "",
+        "ja": "",
+        "ko": "",
+        "pt-br": "",
+        "ru": "",
+        "sp": "",
+        "vi": "Lú Lẫn",
         "zh": ""
       }
     }
