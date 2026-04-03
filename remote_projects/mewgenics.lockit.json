@@ -1,7 +1,7 @@
 {
   "version": 1,
   "projectName": "Mewgenics",
-  "savedAt": "2026-04-03T10:58:29.850Z",
+  "savedAt": "2026-04-03T10:59:29.702Z",
   "categories": [
     "general",
     "additions",
@@ -395207,6 +395207,24 @@
         "ru": "",
         "sp": "",
         "vi": "Lú Lẫn",
+        "zh": ""
+      }
+    },
+    {
+      "id": "TRANSLATE_NOTE",
+      "category": "abilities",
+      "notes": "",
+      "langs": {
+        "de": "",
+        "en": "",
+        "fr": "",
+        "it": "",
+        "ja": "",
+        "ko": "",
+        "pt-br": "",
+        "ru": "",
+        "sp": "",
+        "vi": "dịch đến \"ABILITY_100HANDSLAP_NAME\"",
         "zh": ""
       }
     }
