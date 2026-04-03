@@ -1,7 +1,7 @@
 {
   "version": 1,
   "projectName": "Mewgenics",
-  "savedAt": "2026-04-02T16:31:52.237Z",
+  "savedAt": "2026-04-03T07:13:26.255Z",
   "categories": [
     "general",
     "additions",
@@ -7034,7 +7034,7 @@
         "pt-br": "",
         "ru": "",
         "sp": "",
-        "vi": "Nhận +1 Vững chãi tạm thời và +1 Gai tạm thời cho đến lượt sau của bạn.",
+        "vi": "Nhận +1 Vững chãi tạm thời và +1 Gai góc tạm thời cho đến lượt sau của bạn.",
         "zh": ""
       }
     },
@@ -7043,17 +7043,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Groom",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Groom",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Chải lông"
+        "sp": "",
+        "vi": "Chải chuốt",
+        "zh": ""
       }
     },
     {
@@ -7187,17 +7187,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Gain +1 [img:str].\nBonus Passive: Your basic attack inflicts Bleed.",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Gain +1 [img:str].\nBonus Passive: Your basic attack inflicts Bleed.",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Nhận +1 [img:str].\nNội tại bổ trợ: Đòn tấn công cơ bản gây Chảy máu."
+        "sp": "",
+        "vi": "Nhận +1 [img:str].\nNội tại: Đòn tấn công cơ bản gây Chảy máu.",
+        "zh": ""
       }
     },
     {
@@ -7205,17 +7205,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Reach",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Reach",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Vươn Xa"
+        "sp": "",
+        "vi": "Vươn Mình",
+        "zh": ""
       }
     },
     {
@@ -7313,17 +7313,17 @@
       "category": "abilities",
       "notes": "",
       "langs": {
-        "en": "Soothing Glow",
-        "sp": "",
-        "fr": "",
         "de": "",
+        "en": "Soothing Glow",
+        "fr": "",
         "it": "",
+        "ja": "",
+        "ko": "",
         "pt-br": "",
         "ru": "",
-        "ko": "",
-        "ja": "",
-        "zh": "",
-        "vi": "Ánh Sáng Xoa Dịu"
+        "sp": "",
+        "vi": "Nắng Ấm Xoa Dịu",
+        "zh": ""
       }
     },
     {
@@ -395063,6 +395063,78 @@
         "ru": "",
         "sp": "",
         "vi": "Vững chãi",
+        "zh": ""
+      }
+    },
+    {
+      "id": "ABILITY_THORNS",
+      "category": "abilities",
+      "notes": "",
+      "langs": {
+        "de": "",
+        "en": "Thorns",
+        "fr": "",
+        "it": "",
+        "ja": "",
+        "ko": "",
+        "pt-br": "",
+        "ru": "",
+        "sp": "",
+        "vi": "Gai góc",
+        "zh": ""
+      }
+    },
+    {
+      "id": "ABILITY_DEBUFF",
+      "category": "abilities",
+      "notes": "",
+      "langs": {
+        "de": "",
+        "en": "debuffs",
+        "fr": "",
+        "it": "",
+        "ja": "",
+        "ko": "",
+        "pt-br": "",
+        "ru": "",
+        "sp": "",
+        "vi": "hiệu ứng bất lợi",
+        "zh": ""
+      }
+    },
+    {
+      "id": "ABILITY_BLEED",
+      "category": "abilities",
+      "notes": "",
+      "langs": {
+        "de": "",
+        "en": "Bleed",
+        "fr": "",
+        "it": "",
+        "ja": "",
+        "ko": "",
+        "pt-br": "",
+        "ru": "",
+        "sp": "",
+        "vi": "Chảy máu",
+        "zh": ""
+      }
+    },
+    {
+      "id": "ABILITY_REACH",
+      "category": "abilities",
+      "notes": "",
+      "langs": {
+        "de": "",
+        "en": "Reach",
+        "fr": "",
+        "it": "",
+        "ja": "",
+        "ko": "",
+        "pt-br": "",
+        "ru": "",
+        "sp": "",
+        "vi": "Vươn mình",
         "zh": ""
       }
     }
